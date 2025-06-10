@@ -1,12 +1,12 @@
 # barcode-generator-powerbi-report-builder-code128
 This Code will allow to create a Code 128 barcode in a Power Bi Report Builder. This will also work in Power Bi Online without using any external resources
 
-# How it Works
+## How it Works
   1. **Input Processing: The input is trimmed to 18 digits for this example but it can be expanded more.
   2. **Generation of Code 128: Each digit is converted to its corresponding pattern, all required patters are already populated in the script.
   3. **Barcode Visualization: The barcode is represented by a series of 254 rectangles, colored black or white based on the generated pattern.
 
-# Implementation
+## Implementation
   1. **Add a column to place the barcode
   2. **Copy the code to the Report Code. To access the report code, click over the grey area in Report Builder and select Report Properties, then in the report properties select Code and paste the code in the "Custom code" field.
   3. Create a rectangle for each bar (254 rectangles in this example) and assign the following expression for the background color( Rectangle Properties>Fill>Fill color>Fx: =Code.GetBarcodeColor(Fields!your_var.Value.ToString(), N) Where your_var = field to be converted to Barcode N = rectangle position, Nums from 1 to 254
