@@ -1,0 +1,3847 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Report MustUnderstand="df" xmlns="http://schemas.microsoft.com/sqlserver/reporting/2016/01/reportdefinition" xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner" xmlns:df="http://schemas.microsoft.com/sqlserver/reporting/2016/01/reportdefinition/defaultfontfamily" xmlns:am="http://schemas.microsoft.com/sqlserver/reporting/authoringmetadata">
+  <rd:ReportUnitType>Inch</rd:ReportUnitType>
+  <rd:ReportID>41648826-f4d2-49a0-b488-d982cce1899e</rd:ReportID>
+  <am:AuthoringMetadata>
+    <am:CreatedBy>
+      <am:Name>PBIRB</am:Name>
+      <am:Version>15.7.1807.730</am:Version>
+    </am:CreatedBy>
+    <am:UpdatedBy>
+      <am:Name>PBIRB</am:Name>
+      <am:Version>15.7.1814.616</am:Version>
+    </am:UpdatedBy>
+    <am:LastModifiedTimestamp>2025-07-03T12:55:38.9611645Z</am:LastModifiedTimestamp>
+  </am:AuthoringMetadata>
+  <df:DefaultFontFamily>Segoe UI</df:DefaultFontFamily>
+  <AutoRefresh>0</AutoRefresh>
+  <ReportSections>
+    <ReportSection>
+      <Body>
+        <ReportItems>
+          <Rectangle Name="Rectangle254">
+            <KeepTogether>true</KeepTogether>
+            <Top>0.25694in</Top>
+            <Left>2.74034in</Left>
+            <Height>0.95132in</Height>
+            <Width>0.01379in</Width>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BackgroundColor>=Code.GetBarcodeColor(Parameters!serial_number.Value.ToString(), 1)</BackgroundColor>
+            </Style>
+          </Rectangle>
+          <Rectangle Name="Rectangle255">
+            <KeepTogether>true</KeepTogether>
+            <Top>0.25694in</Top>
+            <Left>2.75413in</Left>
+            <Height>0.95132in</Height>
+            <Width>0.01379in</Width>
+            <ZIndex>1</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BackgroundColor>=Code.GetBarcodeColor(Parameters!serial_number.Value.ToString(), 2)</BackgroundColor>
+            </Style>
+          </Rectangle>
+          <Rectangle Name="Rectangle256">
+            <KeepTogether>true</KeepTogether>
+            <Top>0.25694in</Top>
+            <Left>2.76792in</Left>
+            <Height>0.95132in</Height>
+            <Width>0.01379in</Width>
+            <ZIndex>2</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BackgroundColor>=Code.GetBarcodeColor(Parameters!serial_number.Value.ToString(), 3)</BackgroundColor>
+            </Style>
+          </Rectangle>
+          <Rectangle Name="Rectangle257">
+            <KeepTogether>true</KeepTogether>
+            <Top>0.25694in</Top>
+            <Left>2.78171in</Left>
+            <Height>0.95132in</Height>
+            <Width>0.01379in</Width>
+            <ZIndex>3</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BackgroundColor>=Code.GetBarcodeColor(Parameters!serial_number.Value.ToString(), 4)</BackgroundColor>
+            </Style>
+          </Rectangle>
+          <Rectangle Name="Rectangle258">
+            <KeepTogether>true</KeepTogether>
+            <Top>0.25694in</Top>
+            <Left>2.7955in</Left>
+            <Height>0.95132in</Height>
+            <Width>0.01379in</Width>
+            <ZIndex>4</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BackgroundColor>=Code.GetBarcodeColor(Parameters!serial_number.Value.ToString(), 5)</BackgroundColor>
+            </Style>
+          </Rectangle>
+          <Rectangle Name="Rectangle259">
+            <KeepTogether>true</KeepTogether>
+            <Top>0.25694in</Top>
+            <Left>2.80929in</Left>
+            <Height>0.95132in</Height>
+            <Width>0.01379in</Width>
+            <ZIndex>5</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BackgroundColor>=Code.GetBarcodeColor(Parameters!serial_number.Value.ToString(), 6)</BackgroundColor>
+            </Style>
+          </Rectangle>
+          <Rectangle Name="Rectangle260">
+            <KeepTogether>true</KeepTogether>
+            <Top>0.25694in</Top>
+            <Left>2.82308in</Left>
+            <Height>0.95132in</Height>
+            <Width>0.01379in</Width>
+            <ZIndex>6</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BackgroundColor>=Code.GetBarcodeColor(Parameters!serial_number.Value.ToString(), 7)</BackgroundColor>
+            </Style>
+          </Rectangle>
+          <Rectangle Name="Rectangle261">
+            <KeepTogether>true</KeepTogether>
+            <Top>0.25694in</Top>
+            <Left>2.83687in</Left>
+            <Height>0.95132in</Height>
+            <Width>0.01379in</Width>
+            <ZIndex>7</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BackgroundColor>=Code.GetBarcodeColor(Parameters!serial_number.Value.ToString(), 8)</BackgroundColor>
+            </Style>
+          </Rectangle>
+          <Rectangle Name="Rectangle262">
+            <KeepTogether>true</KeepTogether>
+            <Top>0.25694in</Top>
+            <Left>2.85066in</Left>
+            <Height>0.95132in</Height>
+            <Width>0.01379in</Width>
+            <ZIndex>8</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BackgroundColor>=Code.GetBarcodeColor(Parameters!serial_number.Value.ToString(), 9)</BackgroundColor>
+            </Style>
+          </Rectangle>
+          <Rectangle Name="Rectangle263">
+            <KeepTogether>true</KeepTogether>
+            <Top>0.25694in</Top>
+            <Left>2.86445in</Left>
+            <Height>0.95132in</Height>
+            <Width>0.01379in</Width>
+            <ZIndex>9</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BackgroundColor>=Code.GetBarcodeColor(Parameters!serial_number.Value.ToString(), 10)</BackgroundColor>
+            </Style>
+          </Rectangle>
+          <Rectangle Name="Rectangle264">
+            <KeepTogether>true</KeepTogether>
+            <Top>0.25694in</Top>
+            <Left>2.87824in</Left>
+            <Height>0.95132in</Height>
+            <Width>0.01379in</Width>
+            <ZIndex>10</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BackgroundColor>=Code.GetBarcodeColor(Parameters!serial_number.Value.ToString(), 11)</BackgroundColor>
+            </Style>
+          </Rectangle>
+          <Rectangle Name="Rectangle265">
+            <KeepTogether>true</KeepTogether>
+            <Top>0.25694in</Top>
+            <Left>2.89203in</Left>
+            <Height>0.95132in</Height>
+            <Width>0.01379in</Width>
+            <ZIndex>11</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BackgroundColor>=Code.GetBarcodeColor(Parameters!serial_number.Value.ToString(), 12)</BackgroundColor>
+            </Style>
+          </Rectangle>
+          <Rectangle Name="Rectangle266">
+            <KeepTogether>true</KeepTogether>
+            <Top>0.25694in</Top>
+            <Left>2.90582in</Left>
+            <Height>0.95132in</Height>
+            <Width>0.01379in</Width>
+            <ZIndex>12</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BackgroundColor>=Code.GetBarcodeColor(Parameters!serial_number.Value.ToString(), 13)</BackgroundColor>
+            </Style>
+          </Rectangle>
+          <Rectangle Name="Rectangle267">
+            <KeepTogether>true</KeepTogether>
+            <Top>0.25694in</Top>
+            <Left>2.91961in</Left>
+            <Height>0.95132in</Height>
+            <Width>0.01379in</Width>
+            <ZIndex>13</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BackgroundColor>=Code.GetBarcodeColor(Parameters!serial_number.Value.ToString(), 14)</BackgroundColor>
+            </Style>
+          </Rectangle>
+          <Rectangle Name="Rectangle268">
+            <KeepTogether>true</KeepTogether>
+            <Top>0.25694in</Top>
+            <Left>2.9334in</Left>
+            <Height>0.95132in</Height>
+            <Width>0.01379in</Width>
+            <ZIndex>14</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BackgroundColor>=Code.GetBarcodeColor(Parameters!serial_number.Value.ToString(), 15)</BackgroundColor>
+            </Style>
+          </Rectangle>
+          <Rectangle Name="Rectangle269">
+            <KeepTogether>true</KeepTogether>
+            <Top>0.25694in</Top>
+            <Left>2.94719in</Left>
+            <Height>0.95132in</Height>
+            <Width>0.01379in</Width>
+            <ZIndex>15</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BackgroundColor>=Code.GetBarcodeColor(Parameters!serial_number.Value.ToString(), 16)</BackgroundColor>
+            </Style>
+          </Rectangle>
+          <Rectangle Name="Rectangle270">
+            <KeepTogether>true</KeepTogether>
+            <Top>0.25694in</Top>
+            <Left>2.96098in</Left>
+            <Height>0.95132in</Height>
+            <Width>0.01379in</Width>
+            <ZIndex>16</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BackgroundColor>=Code.GetBarcodeColor(Parameters!serial_number.Value.ToString(), 17)</BackgroundColor>
+            </Style>
+          </Rectangle>
+          <Rectangle Name="Rectangle271">
+            <KeepTogether>true</KeepTogether>
+            <Top>0.25694in</Top>
+            <Left>2.97477in</Left>
+            <Height>0.95132in</Height>
+            <Width>0.01379in</Width>
+            <ZIndex>17</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BackgroundColor>=Code.GetBarcodeColor(Parameters!serial_number.Value.ToString(), 18)</BackgroundColor>
+            </Style>
+          </Rectangle>
+          <Rectangle Name="Rectangle272">
+            <KeepTogether>true</KeepTogether>
+            <Top>0.25694in</Top>
+            <Left>2.98856in</Left>
+            <Height>0.95132in</Height>
+            <Width>0.01379in</Width>
+            <ZIndex>18</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BackgroundColor>=Code.GetBarcodeColor(Parameters!serial_number.Value.ToString(), 19)</BackgroundColor>
+            </Style>
+          </Rectangle>
+          <Rectangle Name="Rectangle273">
+            <KeepTogether>true</KeepTogether>
+            <Top>0.25694in</Top>
+            <Left>3.00235in</Left>
+            <Height>0.95132in</Height>
+            <Width>0.01379in</Width>
+            <ZIndex>19</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BackgroundColor>=Code.GetBarcodeColor(Parameters!serial_number.Value.ToString(), 20)</BackgroundColor>
+            </Style>
+          </Rectangle>
+          <Rectangle Name="Rectangle274">
+            <KeepTogether>true</KeepTogether>
+            <Top>0.25694in</Top>
+            <Left>3.01614in</Left>
+            <Height>0.95132in</Height>
+            <Width>0.01379in</Width>
+            <ZIndex>20</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BackgroundColor>=Code.GetBarcodeColor(Parameters!serial_number.Value.ToString(), 21)</BackgroundColor>
+            </Style>
+          </Rectangle>
+          <Rectangle Name="Rectangle275">
+            <KeepTogether>true</KeepTogether>
+            <Top>0.25694in</Top>
+            <Left>3.02993in</Left>
+            <Height>0.95132in</Height>
+            <Width>0.01379in</Width>
+            <ZIndex>21</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BackgroundColor>=Code.GetBarcodeColor(Parameters!serial_number.Value.ToString(), 22)</BackgroundColor>
+            </Style>
+          </Rectangle>
+          <Rectangle Name="Rectangle276">
+            <KeepTogether>true</KeepTogether>
+            <Top>0.25694in</Top>
+            <Left>3.04372in</Left>
+            <Height>0.95132in</Height>
+            <Width>0.01379in</Width>
+            <ZIndex>22</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BackgroundColor>=Code.GetBarcodeColor(Parameters!serial_number.Value.ToString(), 23)</BackgroundColor>
+            </Style>
+          </Rectangle>
+          <Rectangle Name="Rectangle277">
+            <KeepTogether>true</KeepTogether>
+            <Top>0.25694in</Top>
+            <Left>3.05751in</Left>
+            <Height>0.95132in</Height>
+            <Width>0.01379in</Width>
+            <ZIndex>23</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BackgroundColor>=Code.GetBarcodeColor(Parameters!serial_number.Value.ToString(), 24)</BackgroundColor>
+            </Style>
+          </Rectangle>
+          <Rectangle Name="Rectangle278">
+            <KeepTogether>true</KeepTogether>
+            <Top>0.25694in</Top>
+            <Left>3.0713in</Left>
+            <Height>0.95132in</Height>
+            <Width>0.01379in</Width>
+            <ZIndex>24</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BackgroundColor>=Code.GetBarcodeColor(Parameters!serial_number.Value.ToString(), 25)</BackgroundColor>
+            </Style>
+          </Rectangle>
+          <Rectangle Name="Rectangle279">
+            <KeepTogether>true</KeepTogether>
+            <Top>0.25694in</Top>
+            <Left>3.08509in</Left>
+            <Height>0.95132in</Height>
+            <Width>0.01379in</Width>
+            <ZIndex>25</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BackgroundColor>=Code.GetBarcodeColor(Parameters!serial_number.Value.ToString(), 26)</BackgroundColor>
+            </Style>
+          </Rectangle>
+          <Rectangle Name="Rectangle280">
+            <KeepTogether>true</KeepTogether>
+            <Top>0.25694in</Top>
+            <Left>3.09888in</Left>
+            <Height>0.95132in</Height>
+            <Width>0.01379in</Width>
+            <ZIndex>26</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BackgroundColor>=Code.GetBarcodeColor(Parameters!serial_number.Value.ToString(), 27)</BackgroundColor>
+            </Style>
+          </Rectangle>
+          <Rectangle Name="Rectangle281">
+            <KeepTogether>true</KeepTogether>
+            <Top>0.25694in</Top>
+            <Left>3.11267in</Left>
+            <Height>0.95132in</Height>
+            <Width>0.01379in</Width>
+            <ZIndex>27</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BackgroundColor>=Code.GetBarcodeColor(Parameters!serial_number.Value.ToString(), 28)</BackgroundColor>
+            </Style>
+          </Rectangle>
+          <Rectangle Name="Rectangle282">
+            <KeepTogether>true</KeepTogether>
+            <Top>0.25694in</Top>
+            <Left>3.12646in</Left>
+            <Height>0.95132in</Height>
+            <Width>0.01379in</Width>
+            <ZIndex>28</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BackgroundColor>=Code.GetBarcodeColor(Parameters!serial_number.Value.ToString(), 29)</BackgroundColor>
+            </Style>
+          </Rectangle>
+          <Rectangle Name="Rectangle283">
+            <KeepTogether>true</KeepTogether>
+            <Top>0.25694in</Top>
+            <Left>3.14025in</Left>
+            <Height>0.95132in</Height>
+            <Width>0.01379in</Width>
+            <ZIndex>29</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BackgroundColor>=Code.GetBarcodeColor(Parameters!serial_number.Value.ToString(), 30)</BackgroundColor>
+            </Style>
+          </Rectangle>
+          <Rectangle Name="Rectangle284">
+            <KeepTogether>true</KeepTogether>
+            <Top>0.25694in</Top>
+            <Left>3.15404in</Left>
+            <Height>0.95132in</Height>
+            <Width>0.01379in</Width>
+            <ZIndex>30</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BackgroundColor>=Code.GetBarcodeColor(Parameters!serial_number.Value.ToString(), 31)</BackgroundColor>
+            </Style>
+          </Rectangle>
+          <Rectangle Name="Rectangle285">
+            <KeepTogether>true</KeepTogether>
+            <Top>0.25694in</Top>
+            <Left>3.16783in</Left>
+            <Height>0.95132in</Height>
+            <Width>0.01379in</Width>
+            <ZIndex>31</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BackgroundColor>=Code.GetBarcodeColor(Parameters!serial_number.Value.ToString(), 32)</BackgroundColor>
+            </Style>
+          </Rectangle>
+          <Rectangle Name="Rectangle286">
+            <KeepTogether>true</KeepTogether>
+            <Top>0.25694in</Top>
+            <Left>3.18162in</Left>
+            <Height>0.95132in</Height>
+            <Width>0.01379in</Width>
+            <ZIndex>32</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BackgroundColor>=Code.GetBarcodeColor(Parameters!serial_number.Value.ToString(), 33)</BackgroundColor>
+            </Style>
+          </Rectangle>
+          <Rectangle Name="Rectangle287">
+            <KeepTogether>true</KeepTogether>
+            <Top>0.25694in</Top>
+            <Left>3.19541in</Left>
+            <Height>0.95132in</Height>
+            <Width>0.01379in</Width>
+            <ZIndex>33</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BackgroundColor>=Code.GetBarcodeColor(Parameters!serial_number.Value.ToString(), 34)</BackgroundColor>
+            </Style>
+          </Rectangle>
+          <Rectangle Name="Rectangle288">
+            <KeepTogether>true</KeepTogether>
+            <Top>0.25694in</Top>
+            <Left>3.2092in</Left>
+            <Height>0.95132in</Height>
+            <Width>0.01379in</Width>
+            <ZIndex>34</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BackgroundColor>=Code.GetBarcodeColor(Parameters!serial_number.Value.ToString(), 35)</BackgroundColor>
+            </Style>
+          </Rectangle>
+          <Rectangle Name="Rectangle289">
+            <KeepTogether>true</KeepTogether>
+            <Top>0.25694in</Top>
+            <Left>3.22299in</Left>
+            <Height>0.95132in</Height>
+            <Width>0.01379in</Width>
+            <ZIndex>35</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BackgroundColor>=Code.GetBarcodeColor(Parameters!serial_number.Value.ToString(), 36)</BackgroundColor>
+            </Style>
+          </Rectangle>
+          <Rectangle Name="Rectangle290">
+            <KeepTogether>true</KeepTogether>
+            <Top>0.25694in</Top>
+            <Left>3.23678in</Left>
+            <Height>0.95132in</Height>
+            <Width>0.01379in</Width>
+            <ZIndex>36</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BackgroundColor>=Code.GetBarcodeColor(Parameters!serial_number.Value.ToString(), 37)</BackgroundColor>
+            </Style>
+          </Rectangle>
+          <Rectangle Name="Rectangle291">
+            <KeepTogether>true</KeepTogether>
+            <Top>0.25694in</Top>
+            <Left>3.25057in</Left>
+            <Height>0.95132in</Height>
+            <Width>0.01379in</Width>
+            <ZIndex>37</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BackgroundColor>=Code.GetBarcodeColor(Parameters!serial_number.Value.ToString(), 38)</BackgroundColor>
+            </Style>
+          </Rectangle>
+          <Rectangle Name="Rectangle292">
+            <KeepTogether>true</KeepTogether>
+            <Top>0.25694in</Top>
+            <Left>3.26436in</Left>
+            <Height>0.95132in</Height>
+            <Width>0.01379in</Width>
+            <ZIndex>38</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BackgroundColor>=Code.GetBarcodeColor(Parameters!serial_number.Value.ToString(), 39)</BackgroundColor>
+            </Style>
+          </Rectangle>
+          <Rectangle Name="Rectangle293">
+            <KeepTogether>true</KeepTogether>
+            <Top>0.25694in</Top>
+            <Left>3.27815in</Left>
+            <Height>0.95132in</Height>
+            <Width>0.01379in</Width>
+            <ZIndex>39</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BackgroundColor>=Code.GetBarcodeColor(Parameters!serial_number.Value.ToString(), 40)</BackgroundColor>
+            </Style>
+          </Rectangle>
+          <Rectangle Name="Rectangle294">
+            <KeepTogether>true</KeepTogether>
+            <Top>0.25694in</Top>
+            <Left>3.29194in</Left>
+            <Height>0.95132in</Height>
+            <Width>0.01379in</Width>
+            <ZIndex>40</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BackgroundColor>=Code.GetBarcodeColor(Parameters!serial_number.Value.ToString(), 41)</BackgroundColor>
+            </Style>
+          </Rectangle>
+          <Rectangle Name="Rectangle295">
+            <KeepTogether>true</KeepTogether>
+            <Top>0.25694in</Top>
+            <Left>3.30573in</Left>
+            <Height>0.95132in</Height>
+            <Width>0.01379in</Width>
+            <ZIndex>41</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BackgroundColor>=Code.GetBarcodeColor(Parameters!serial_number.Value.ToString(), 42)</BackgroundColor>
+            </Style>
+          </Rectangle>
+          <Rectangle Name="Rectangle296">
+            <KeepTogether>true</KeepTogether>
+            <Top>0.25694in</Top>
+            <Left>3.31952in</Left>
+            <Height>0.95132in</Height>
+            <Width>0.01379in</Width>
+            <ZIndex>42</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BackgroundColor>=Code.GetBarcodeColor(Parameters!serial_number.Value.ToString(), 43)</BackgroundColor>
+            </Style>
+          </Rectangle>
+          <Rectangle Name="Rectangle297">
+            <KeepTogether>true</KeepTogether>
+            <Top>0.25694in</Top>
+            <Left>3.33331in</Left>
+            <Height>0.95132in</Height>
+            <Width>0.01379in</Width>
+            <ZIndex>43</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BackgroundColor>=Code.GetBarcodeColor(Parameters!serial_number.Value.ToString(), 44)</BackgroundColor>
+            </Style>
+          </Rectangle>
+          <Rectangle Name="Rectangle298">
+            <KeepTogether>true</KeepTogether>
+            <Top>0.25694in</Top>
+            <Left>3.3471in</Left>
+            <Height>0.95132in</Height>
+            <Width>0.01379in</Width>
+            <ZIndex>44</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BackgroundColor>=Code.GetBarcodeColor(Parameters!serial_number.Value.ToString(), 45)</BackgroundColor>
+            </Style>
+          </Rectangle>
+          <Rectangle Name="Rectangle299">
+            <KeepTogether>true</KeepTogether>
+            <Top>0.25694in</Top>
+            <Left>3.36089in</Left>
+            <Height>0.95132in</Height>
+            <Width>0.01379in</Width>
+            <ZIndex>45</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BackgroundColor>=Code.GetBarcodeColor(Parameters!serial_number.Value.ToString(), 46)</BackgroundColor>
+            </Style>
+          </Rectangle>
+          <Rectangle Name="Rectangle300">
+            <KeepTogether>true</KeepTogether>
+            <Top>0.25694in</Top>
+            <Left>3.37468in</Left>
+            <Height>0.95132in</Height>
+            <Width>0.01379in</Width>
+            <ZIndex>46</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BackgroundColor>=Code.GetBarcodeColor(Parameters!serial_number.Value.ToString(), 47)</BackgroundColor>
+            </Style>
+          </Rectangle>
+          <Rectangle Name="Rectangle301">
+            <KeepTogether>true</KeepTogether>
+            <Top>0.25694in</Top>
+            <Left>3.38847in</Left>
+            <Height>0.95132in</Height>
+            <Width>0.01379in</Width>
+            <ZIndex>47</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BackgroundColor>=Code.GetBarcodeColor(Parameters!serial_number.Value.ToString(), 48)</BackgroundColor>
+            </Style>
+          </Rectangle>
+          <Rectangle Name="Rectangle302">
+            <KeepTogether>true</KeepTogether>
+            <Top>0.25694in</Top>
+            <Left>3.40226in</Left>
+            <Height>0.95132in</Height>
+            <Width>0.01379in</Width>
+            <ZIndex>48</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BackgroundColor>=Code.GetBarcodeColor(Parameters!serial_number.Value.ToString(), 49)</BackgroundColor>
+            </Style>
+          </Rectangle>
+          <Rectangle Name="Rectangle303">
+            <KeepTogether>true</KeepTogether>
+            <Top>0.25694in</Top>
+            <Left>3.41605in</Left>
+            <Height>0.95132in</Height>
+            <Width>0.01379in</Width>
+            <ZIndex>49</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BackgroundColor>=Code.GetBarcodeColor(Parameters!serial_number.Value.ToString(), 50)</BackgroundColor>
+            </Style>
+          </Rectangle>
+          <Rectangle Name="Rectangle304">
+            <KeepTogether>true</KeepTogether>
+            <Top>0.25694in</Top>
+            <Left>3.42984in</Left>
+            <Height>0.95132in</Height>
+            <Width>0.01379in</Width>
+            <ZIndex>50</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BackgroundColor>=Code.GetBarcodeColor(Parameters!serial_number.Value.ToString(), 51)</BackgroundColor>
+            </Style>
+          </Rectangle>
+          <Rectangle Name="Rectangle305">
+            <KeepTogether>true</KeepTogether>
+            <Top>0.25694in</Top>
+            <Left>3.44363in</Left>
+            <Height>0.95132in</Height>
+            <Width>0.01379in</Width>
+            <ZIndex>51</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BackgroundColor>=Code.GetBarcodeColor(Parameters!serial_number.Value.ToString(), 52)</BackgroundColor>
+            </Style>
+          </Rectangle>
+          <Rectangle Name="Rectangle306">
+            <KeepTogether>true</KeepTogether>
+            <Top>0.25694in</Top>
+            <Left>3.45742in</Left>
+            <Height>0.95132in</Height>
+            <Width>0.01379in</Width>
+            <ZIndex>52</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BackgroundColor>=Code.GetBarcodeColor(Parameters!serial_number.Value.ToString(), 53)</BackgroundColor>
+            </Style>
+          </Rectangle>
+          <Rectangle Name="Rectangle307">
+            <KeepTogether>true</KeepTogether>
+            <Top>0.25694in</Top>
+            <Left>3.47121in</Left>
+            <Height>0.95132in</Height>
+            <Width>0.01379in</Width>
+            <ZIndex>53</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BackgroundColor>=Code.GetBarcodeColor(Parameters!serial_number.Value.ToString(), 54)</BackgroundColor>
+            </Style>
+          </Rectangle>
+          <Rectangle Name="Rectangle308">
+            <KeepTogether>true</KeepTogether>
+            <Top>0.25694in</Top>
+            <Left>3.485in</Left>
+            <Height>0.95132in</Height>
+            <Width>0.01379in</Width>
+            <ZIndex>54</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BackgroundColor>=Code.GetBarcodeColor(Parameters!serial_number.Value.ToString(), 55)</BackgroundColor>
+            </Style>
+          </Rectangle>
+          <Rectangle Name="Rectangle309">
+            <KeepTogether>true</KeepTogether>
+            <Top>0.25694in</Top>
+            <Left>3.49879in</Left>
+            <Height>0.95132in</Height>
+            <Width>0.01379in</Width>
+            <ZIndex>55</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BackgroundColor>=Code.GetBarcodeColor(Parameters!serial_number.Value.ToString(), 56)</BackgroundColor>
+            </Style>
+          </Rectangle>
+          <Rectangle Name="Rectangle310">
+            <KeepTogether>true</KeepTogether>
+            <Top>0.25694in</Top>
+            <Left>3.51258in</Left>
+            <Height>0.95132in</Height>
+            <Width>0.01379in</Width>
+            <ZIndex>56</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BackgroundColor>=Code.GetBarcodeColor(Parameters!serial_number.Value.ToString(), 57)</BackgroundColor>
+            </Style>
+          </Rectangle>
+          <Rectangle Name="Rectangle311">
+            <KeepTogether>true</KeepTogether>
+            <Top>0.25694in</Top>
+            <Left>3.52637in</Left>
+            <Height>0.95132in</Height>
+            <Width>0.01379in</Width>
+            <ZIndex>57</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BackgroundColor>=Code.GetBarcodeColor(Parameters!serial_number.Value.ToString(), 58)</BackgroundColor>
+            </Style>
+          </Rectangle>
+          <Rectangle Name="Rectangle312">
+            <KeepTogether>true</KeepTogether>
+            <Top>0.25694in</Top>
+            <Left>3.54016in</Left>
+            <Height>0.95132in</Height>
+            <Width>0.01379in</Width>
+            <ZIndex>58</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BackgroundColor>=Code.GetBarcodeColor(Parameters!serial_number.Value.ToString(), 59)</BackgroundColor>
+            </Style>
+          </Rectangle>
+          <Rectangle Name="Rectangle313">
+            <KeepTogether>true</KeepTogether>
+            <Top>0.25694in</Top>
+            <Left>3.55395in</Left>
+            <Height>0.95132in</Height>
+            <Width>0.01379in</Width>
+            <ZIndex>59</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BackgroundColor>=Code.GetBarcodeColor(Parameters!serial_number.Value.ToString(), 60)</BackgroundColor>
+            </Style>
+          </Rectangle>
+          <Rectangle Name="Rectangle314">
+            <KeepTogether>true</KeepTogether>
+            <Top>0.25694in</Top>
+            <Left>3.56774in</Left>
+            <Height>0.95132in</Height>
+            <Width>0.01379in</Width>
+            <ZIndex>60</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BackgroundColor>=Code.GetBarcodeColor(Parameters!serial_number.Value.ToString(), 61)</BackgroundColor>
+            </Style>
+          </Rectangle>
+          <Rectangle Name="Rectangle315">
+            <KeepTogether>true</KeepTogether>
+            <Top>0.25694in</Top>
+            <Left>3.58153in</Left>
+            <Height>0.95132in</Height>
+            <Width>0.01379in</Width>
+            <ZIndex>61</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BackgroundColor>=Code.GetBarcodeColor(Parameters!serial_number.Value.ToString(), 62)</BackgroundColor>
+            </Style>
+          </Rectangle>
+          <Rectangle Name="Rectangle316">
+            <KeepTogether>true</KeepTogether>
+            <Top>0.25694in</Top>
+            <Left>3.59532in</Left>
+            <Height>0.95132in</Height>
+            <Width>0.01379in</Width>
+            <ZIndex>62</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BackgroundColor>=Code.GetBarcodeColor(Parameters!serial_number.Value.ToString(), 63)</BackgroundColor>
+            </Style>
+          </Rectangle>
+          <Rectangle Name="Rectangle317">
+            <KeepTogether>true</KeepTogether>
+            <Top>0.25694in</Top>
+            <Left>3.60911in</Left>
+            <Height>0.95132in</Height>
+            <Width>0.01379in</Width>
+            <ZIndex>63</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BackgroundColor>=Code.GetBarcodeColor(Parameters!serial_number.Value.ToString(), 64)</BackgroundColor>
+            </Style>
+          </Rectangle>
+          <Rectangle Name="Rectangle318">
+            <KeepTogether>true</KeepTogether>
+            <Top>0.25694in</Top>
+            <Left>3.6229in</Left>
+            <Height>0.95132in</Height>
+            <Width>0.01379in</Width>
+            <ZIndex>64</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BackgroundColor>=Code.GetBarcodeColor(Parameters!serial_number.Value.ToString(), 65)</BackgroundColor>
+            </Style>
+          </Rectangle>
+          <Rectangle Name="Rectangle319">
+            <KeepTogether>true</KeepTogether>
+            <Top>0.25694in</Top>
+            <Left>3.63669in</Left>
+            <Height>0.95132in</Height>
+            <Width>0.01379in</Width>
+            <ZIndex>65</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BackgroundColor>=Code.GetBarcodeColor(Parameters!serial_number.Value.ToString(), 66)</BackgroundColor>
+            </Style>
+          </Rectangle>
+          <Rectangle Name="Rectangle320">
+            <KeepTogether>true</KeepTogether>
+            <Top>0.25694in</Top>
+            <Left>3.65048in</Left>
+            <Height>0.95132in</Height>
+            <Width>0.01379in</Width>
+            <ZIndex>66</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BackgroundColor>=Code.GetBarcodeColor(Parameters!serial_number.Value.ToString(), 67)</BackgroundColor>
+            </Style>
+          </Rectangle>
+          <Rectangle Name="Rectangle321">
+            <KeepTogether>true</KeepTogether>
+            <Top>0.25694in</Top>
+            <Left>3.66427in</Left>
+            <Height>0.95132in</Height>
+            <Width>0.01379in</Width>
+            <ZIndex>67</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BackgroundColor>=Code.GetBarcodeColor(Parameters!serial_number.Value.ToString(), 68)</BackgroundColor>
+            </Style>
+          </Rectangle>
+          <Rectangle Name="Rectangle322">
+            <KeepTogether>true</KeepTogether>
+            <Top>0.25694in</Top>
+            <Left>3.67806in</Left>
+            <Height>0.95132in</Height>
+            <Width>0.01379in</Width>
+            <ZIndex>68</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BackgroundColor>=Code.GetBarcodeColor(Parameters!serial_number.Value.ToString(), 69)</BackgroundColor>
+            </Style>
+          </Rectangle>
+          <Rectangle Name="Rectangle323">
+            <KeepTogether>true</KeepTogether>
+            <Top>0.25694in</Top>
+            <Left>3.69185in</Left>
+            <Height>0.95132in</Height>
+            <Width>0.01379in</Width>
+            <ZIndex>69</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BackgroundColor>=Code.GetBarcodeColor(Parameters!serial_number.Value.ToString(), 70)</BackgroundColor>
+            </Style>
+          </Rectangle>
+          <Rectangle Name="Rectangle324">
+            <KeepTogether>true</KeepTogether>
+            <Top>0.25694in</Top>
+            <Left>3.70564in</Left>
+            <Height>0.95132in</Height>
+            <Width>0.01379in</Width>
+            <ZIndex>70</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BackgroundColor>=Code.GetBarcodeColor(Parameters!serial_number.Value.ToString(), 71)</BackgroundColor>
+            </Style>
+          </Rectangle>
+          <Rectangle Name="Rectangle325">
+            <KeepTogether>true</KeepTogether>
+            <Top>0.25694in</Top>
+            <Left>3.71943in</Left>
+            <Height>0.95132in</Height>
+            <Width>0.01379in</Width>
+            <ZIndex>71</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BackgroundColor>=Code.GetBarcodeColor(Parameters!serial_number.Value.ToString(), 72)</BackgroundColor>
+            </Style>
+          </Rectangle>
+          <Rectangle Name="Rectangle326">
+            <KeepTogether>true</KeepTogether>
+            <Top>0.25694in</Top>
+            <Left>3.73322in</Left>
+            <Height>0.95132in</Height>
+            <Width>0.01379in</Width>
+            <ZIndex>72</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BackgroundColor>=Code.GetBarcodeColor(Parameters!serial_number.Value.ToString(), 73)</BackgroundColor>
+            </Style>
+          </Rectangle>
+          <Rectangle Name="Rectangle327">
+            <KeepTogether>true</KeepTogether>
+            <Top>0.25694in</Top>
+            <Left>3.74701in</Left>
+            <Height>0.95132in</Height>
+            <Width>0.01379in</Width>
+            <ZIndex>73</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BackgroundColor>=Code.GetBarcodeColor(Parameters!serial_number.Value.ToString(), 74)</BackgroundColor>
+            </Style>
+          </Rectangle>
+          <Rectangle Name="Rectangle328">
+            <KeepTogether>true</KeepTogether>
+            <Top>0.25694in</Top>
+            <Left>3.7608in</Left>
+            <Height>0.95132in</Height>
+            <Width>0.01379in</Width>
+            <ZIndex>74</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BackgroundColor>=Code.GetBarcodeColor(Parameters!serial_number.Value.ToString(), 75)</BackgroundColor>
+            </Style>
+          </Rectangle>
+          <Rectangle Name="Rectangle329">
+            <KeepTogether>true</KeepTogether>
+            <Top>0.25694in</Top>
+            <Left>3.77459in</Left>
+            <Height>0.95132in</Height>
+            <Width>0.01379in</Width>
+            <ZIndex>75</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BackgroundColor>=Code.GetBarcodeColor(Parameters!serial_number.Value.ToString(), 76)</BackgroundColor>
+            </Style>
+          </Rectangle>
+          <Rectangle Name="Rectangle330">
+            <KeepTogether>true</KeepTogether>
+            <Top>0.25694in</Top>
+            <Left>3.78838in</Left>
+            <Height>0.95132in</Height>
+            <Width>0.01379in</Width>
+            <ZIndex>76</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BackgroundColor>=Code.GetBarcodeColor(Parameters!serial_number.Value.ToString(), 77)</BackgroundColor>
+            </Style>
+          </Rectangle>
+          <Rectangle Name="Rectangle331">
+            <KeepTogether>true</KeepTogether>
+            <Top>0.25694in</Top>
+            <Left>3.80217in</Left>
+            <Height>0.95132in</Height>
+            <Width>0.01379in</Width>
+            <ZIndex>77</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BackgroundColor>=Code.GetBarcodeColor(Parameters!serial_number.Value.ToString(), 78)</BackgroundColor>
+            </Style>
+          </Rectangle>
+          <Rectangle Name="Rectangle332">
+            <KeepTogether>true</KeepTogether>
+            <Top>0.25694in</Top>
+            <Left>3.81596in</Left>
+            <Height>0.95132in</Height>
+            <Width>0.01379in</Width>
+            <ZIndex>78</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BackgroundColor>=Code.GetBarcodeColor(Parameters!serial_number.Value.ToString(), 79)</BackgroundColor>
+            </Style>
+          </Rectangle>
+          <Rectangle Name="Rectangle333">
+            <KeepTogether>true</KeepTogether>
+            <Top>0.25694in</Top>
+            <Left>3.82975in</Left>
+            <Height>0.95132in</Height>
+            <Width>0.01379in</Width>
+            <ZIndex>79</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BackgroundColor>=Code.GetBarcodeColor(Parameters!serial_number.Value.ToString(), 80)</BackgroundColor>
+            </Style>
+          </Rectangle>
+          <Rectangle Name="Rectangle334">
+            <KeepTogether>true</KeepTogether>
+            <Top>0.25694in</Top>
+            <Left>3.84354in</Left>
+            <Height>0.95132in</Height>
+            <Width>0.01379in</Width>
+            <ZIndex>80</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BackgroundColor>=Code.GetBarcodeColor(Parameters!serial_number.Value.ToString(), 81)</BackgroundColor>
+            </Style>
+          </Rectangle>
+          <Rectangle Name="Rectangle335">
+            <KeepTogether>true</KeepTogether>
+            <Top>0.25694in</Top>
+            <Left>3.85733in</Left>
+            <Height>0.95132in</Height>
+            <Width>0.01379in</Width>
+            <ZIndex>81</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BackgroundColor>=Code.GetBarcodeColor(Parameters!serial_number.Value.ToString(), 82)</BackgroundColor>
+            </Style>
+          </Rectangle>
+          <Rectangle Name="Rectangle336">
+            <KeepTogether>true</KeepTogether>
+            <Top>0.25694in</Top>
+            <Left>3.87112in</Left>
+            <Height>0.95132in</Height>
+            <Width>0.01379in</Width>
+            <ZIndex>82</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BackgroundColor>=Code.GetBarcodeColor(Parameters!serial_number.Value.ToString(), 83)</BackgroundColor>
+            </Style>
+          </Rectangle>
+          <Rectangle Name="Rectangle337">
+            <KeepTogether>true</KeepTogether>
+            <Top>0.25694in</Top>
+            <Left>3.88491in</Left>
+            <Height>0.95132in</Height>
+            <Width>0.01379in</Width>
+            <ZIndex>83</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BackgroundColor>=Code.GetBarcodeColor(Parameters!serial_number.Value.ToString(), 84)</BackgroundColor>
+            </Style>
+          </Rectangle>
+          <Rectangle Name="Rectangle338">
+            <KeepTogether>true</KeepTogether>
+            <Top>0.25694in</Top>
+            <Left>3.8987in</Left>
+            <Height>0.95132in</Height>
+            <Width>0.01379in</Width>
+            <ZIndex>84</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BackgroundColor>=Code.GetBarcodeColor(Parameters!serial_number.Value.ToString(), 85)</BackgroundColor>
+            </Style>
+          </Rectangle>
+          <Rectangle Name="Rectangle339">
+            <KeepTogether>true</KeepTogether>
+            <Top>0.25694in</Top>
+            <Left>3.91249in</Left>
+            <Height>0.95132in</Height>
+            <Width>0.01379in</Width>
+            <ZIndex>85</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BackgroundColor>=Code.GetBarcodeColor(Parameters!serial_number.Value.ToString(), 86)</BackgroundColor>
+            </Style>
+          </Rectangle>
+          <Rectangle Name="Rectangle340">
+            <KeepTogether>true</KeepTogether>
+            <Top>0.25694in</Top>
+            <Left>3.92628in</Left>
+            <Height>0.95132in</Height>
+            <Width>0.01379in</Width>
+            <ZIndex>86</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BackgroundColor>=Code.GetBarcodeColor(Parameters!serial_number.Value.ToString(), 87)</BackgroundColor>
+            </Style>
+          </Rectangle>
+          <Rectangle Name="Rectangle341">
+            <KeepTogether>true</KeepTogether>
+            <Top>0.25694in</Top>
+            <Left>3.94007in</Left>
+            <Height>0.95132in</Height>
+            <Width>0.01379in</Width>
+            <ZIndex>87</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BackgroundColor>=Code.GetBarcodeColor(Parameters!serial_number.Value.ToString(), 88)</BackgroundColor>
+            </Style>
+          </Rectangle>
+          <Rectangle Name="Rectangle342">
+            <KeepTogether>true</KeepTogether>
+            <Top>0.25694in</Top>
+            <Left>3.95386in</Left>
+            <Height>0.95132in</Height>
+            <Width>0.01379in</Width>
+            <ZIndex>88</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BackgroundColor>=Code.GetBarcodeColor(Parameters!serial_number.Value.ToString(), 89)</BackgroundColor>
+            </Style>
+          </Rectangle>
+          <Rectangle Name="Rectangle343">
+            <KeepTogether>true</KeepTogether>
+            <Top>0.25694in</Top>
+            <Left>3.96765in</Left>
+            <Height>0.95132in</Height>
+            <Width>0.01379in</Width>
+            <ZIndex>89</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BackgroundColor>=Code.GetBarcodeColor(Parameters!serial_number.Value.ToString(), 90)</BackgroundColor>
+            </Style>
+          </Rectangle>
+          <Rectangle Name="Rectangle344">
+            <KeepTogether>true</KeepTogether>
+            <Top>0.25694in</Top>
+            <Left>3.98144in</Left>
+            <Height>0.95132in</Height>
+            <Width>0.01379in</Width>
+            <ZIndex>90</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BackgroundColor>=Code.GetBarcodeColor(Parameters!serial_number.Value.ToString(), 91)</BackgroundColor>
+            </Style>
+          </Rectangle>
+          <Rectangle Name="Rectangle345">
+            <KeepTogether>true</KeepTogether>
+            <Top>0.25694in</Top>
+            <Left>3.99523in</Left>
+            <Height>0.95132in</Height>
+            <Width>0.01379in</Width>
+            <ZIndex>91</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BackgroundColor>=Code.GetBarcodeColor(Parameters!serial_number.Value.ToString(), 92)</BackgroundColor>
+            </Style>
+          </Rectangle>
+          <Rectangle Name="Rectangle346">
+            <KeepTogether>true</KeepTogether>
+            <Top>0.25694in</Top>
+            <Left>4.00902in</Left>
+            <Height>0.95132in</Height>
+            <Width>0.01379in</Width>
+            <ZIndex>92</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BackgroundColor>=Code.GetBarcodeColor(Parameters!serial_number.Value.ToString(), 93)</BackgroundColor>
+            </Style>
+          </Rectangle>
+          <Rectangle Name="Rectangle347">
+            <KeepTogether>true</KeepTogether>
+            <Top>0.25694in</Top>
+            <Left>4.02281in</Left>
+            <Height>0.95132in</Height>
+            <Width>0.01379in</Width>
+            <ZIndex>93</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BackgroundColor>=Code.GetBarcodeColor(Parameters!serial_number.Value.ToString(), 94)</BackgroundColor>
+            </Style>
+          </Rectangle>
+          <Rectangle Name="Rectangle348">
+            <KeepTogether>true</KeepTogether>
+            <Top>0.25694in</Top>
+            <Left>4.0366in</Left>
+            <Height>0.95132in</Height>
+            <Width>0.01379in</Width>
+            <ZIndex>94</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BackgroundColor>=Code.GetBarcodeColor(Parameters!serial_number.Value.ToString(), 95)</BackgroundColor>
+            </Style>
+          </Rectangle>
+          <Rectangle Name="Rectangle349">
+            <KeepTogether>true</KeepTogether>
+            <Top>0.25694in</Top>
+            <Left>4.05039in</Left>
+            <Height>0.95132in</Height>
+            <Width>0.01379in</Width>
+            <ZIndex>95</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BackgroundColor>=Code.GetBarcodeColor(Parameters!serial_number.Value.ToString(), 96)</BackgroundColor>
+            </Style>
+          </Rectangle>
+          <Rectangle Name="Rectangle350">
+            <KeepTogether>true</KeepTogether>
+            <Top>0.25694in</Top>
+            <Left>4.06418in</Left>
+            <Height>0.95132in</Height>
+            <Width>0.01379in</Width>
+            <ZIndex>96</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BackgroundColor>=Code.GetBarcodeColor(Parameters!serial_number.Value.ToString(), 97)</BackgroundColor>
+            </Style>
+          </Rectangle>
+          <Rectangle Name="Rectangle351">
+            <KeepTogether>true</KeepTogether>
+            <Top>0.25694in</Top>
+            <Left>4.07797in</Left>
+            <Height>0.95132in</Height>
+            <Width>0.01379in</Width>
+            <ZIndex>97</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BackgroundColor>=Code.GetBarcodeColor(Parameters!serial_number.Value.ToString(), 98)</BackgroundColor>
+            </Style>
+          </Rectangle>
+          <Rectangle Name="Rectangle352">
+            <KeepTogether>true</KeepTogether>
+            <Top>0.25694in</Top>
+            <Left>4.09176in</Left>
+            <Height>0.95132in</Height>
+            <Width>0.01379in</Width>
+            <ZIndex>98</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BackgroundColor>=Code.GetBarcodeColor(Parameters!serial_number.Value.ToString(), 99)</BackgroundColor>
+            </Style>
+          </Rectangle>
+          <Rectangle Name="Rectangle353">
+            <KeepTogether>true</KeepTogether>
+            <Top>0.25694in</Top>
+            <Left>4.10555in</Left>
+            <Height>0.95132in</Height>
+            <Width>0.01379in</Width>
+            <ZIndex>99</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BackgroundColor>=Code.GetBarcodeColor(Parameters!serial_number.Value.ToString(), 100)</BackgroundColor>
+            </Style>
+          </Rectangle>
+          <Rectangle Name="Rectangle354">
+            <KeepTogether>true</KeepTogether>
+            <Top>0.25694in</Top>
+            <Left>4.11934in</Left>
+            <Height>0.95132in</Height>
+            <Width>0.01379in</Width>
+            <ZIndex>100</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BackgroundColor>=Code.GetBarcodeColor(Parameters!serial_number.Value.ToString(), 101)</BackgroundColor>
+            </Style>
+          </Rectangle>
+          <Rectangle Name="Rectangle355">
+            <KeepTogether>true</KeepTogether>
+            <Top>0.25694in</Top>
+            <Left>4.13313in</Left>
+            <Height>0.95132in</Height>
+            <Width>0.01379in</Width>
+            <ZIndex>101</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BackgroundColor>=Code.GetBarcodeColor(Parameters!serial_number.Value.ToString(), 102)</BackgroundColor>
+            </Style>
+          </Rectangle>
+          <Rectangle Name="Rectangle356">
+            <KeepTogether>true</KeepTogether>
+            <Top>0.25694in</Top>
+            <Left>4.14692in</Left>
+            <Height>0.95132in</Height>
+            <Width>0.01379in</Width>
+            <ZIndex>102</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BackgroundColor>=Code.GetBarcodeColor(Parameters!serial_number.Value.ToString(), 103)</BackgroundColor>
+            </Style>
+          </Rectangle>
+          <Rectangle Name="Rectangle357">
+            <KeepTogether>true</KeepTogether>
+            <Top>0.25694in</Top>
+            <Left>4.16071in</Left>
+            <Height>0.95132in</Height>
+            <Width>0.01379in</Width>
+            <ZIndex>103</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BackgroundColor>=Code.GetBarcodeColor(Parameters!serial_number.Value.ToString(), 104)</BackgroundColor>
+            </Style>
+          </Rectangle>
+          <Rectangle Name="Rectangle358">
+            <KeepTogether>true</KeepTogether>
+            <Top>0.25694in</Top>
+            <Left>4.1745in</Left>
+            <Height>0.95132in</Height>
+            <Width>0.01379in</Width>
+            <ZIndex>104</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BackgroundColor>=Code.GetBarcodeColor(Parameters!serial_number.Value.ToString(), 105)</BackgroundColor>
+            </Style>
+          </Rectangle>
+          <Rectangle Name="Rectangle359">
+            <KeepTogether>true</KeepTogether>
+            <Top>0.25694in</Top>
+            <Left>4.18829in</Left>
+            <Height>0.95132in</Height>
+            <Width>0.01379in</Width>
+            <ZIndex>105</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BackgroundColor>=Code.GetBarcodeColor(Parameters!serial_number.Value.ToString(), 106)</BackgroundColor>
+            </Style>
+          </Rectangle>
+          <Rectangle Name="Rectangle360">
+            <KeepTogether>true</KeepTogether>
+            <Top>0.25694in</Top>
+            <Left>4.20208in</Left>
+            <Height>0.95132in</Height>
+            <Width>0.01379in</Width>
+            <ZIndex>106</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BackgroundColor>=Code.GetBarcodeColor(Parameters!serial_number.Value.ToString(), 107)</BackgroundColor>
+            </Style>
+          </Rectangle>
+          <Rectangle Name="Rectangle361">
+            <KeepTogether>true</KeepTogether>
+            <Top>0.25694in</Top>
+            <Left>4.21587in</Left>
+            <Height>0.95132in</Height>
+            <Width>0.01379in</Width>
+            <ZIndex>107</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BackgroundColor>=Code.GetBarcodeColor(Parameters!serial_number.Value.ToString(), 108)</BackgroundColor>
+            </Style>
+          </Rectangle>
+          <Rectangle Name="Rectangle362">
+            <KeepTogether>true</KeepTogether>
+            <Top>0.25694in</Top>
+            <Left>4.22966in</Left>
+            <Height>0.95132in</Height>
+            <Width>0.01379in</Width>
+            <ZIndex>108</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BackgroundColor>=Code.GetBarcodeColor(Parameters!serial_number.Value.ToString(), 109)</BackgroundColor>
+            </Style>
+          </Rectangle>
+          <Rectangle Name="Rectangle363">
+            <KeepTogether>true</KeepTogether>
+            <Top>0.25694in</Top>
+            <Left>4.24345in</Left>
+            <Height>0.95132in</Height>
+            <Width>0.01379in</Width>
+            <ZIndex>109</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BackgroundColor>=Code.GetBarcodeColor(Parameters!serial_number.Value.ToString(), 110)</BackgroundColor>
+            </Style>
+          </Rectangle>
+          <Rectangle Name="Rectangle364">
+            <KeepTogether>true</KeepTogether>
+            <Top>0.25694in</Top>
+            <Left>4.25724in</Left>
+            <Height>0.95132in</Height>
+            <Width>0.01379in</Width>
+            <ZIndex>110</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BackgroundColor>=Code.GetBarcodeColor(Parameters!serial_number.Value.ToString(), 111)</BackgroundColor>
+            </Style>
+          </Rectangle>
+          <Rectangle Name="Rectangle365">
+            <KeepTogether>true</KeepTogether>
+            <Top>0.25694in</Top>
+            <Left>4.27103in</Left>
+            <Height>0.95132in</Height>
+            <Width>0.01379in</Width>
+            <ZIndex>111</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BackgroundColor>=Code.GetBarcodeColor(Parameters!serial_number.Value.ToString(), 112)</BackgroundColor>
+            </Style>
+          </Rectangle>
+          <Rectangle Name="Rectangle366">
+            <KeepTogether>true</KeepTogether>
+            <Top>0.25694in</Top>
+            <Left>4.28482in</Left>
+            <Height>0.95132in</Height>
+            <Width>0.01379in</Width>
+            <ZIndex>112</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BackgroundColor>=Code.GetBarcodeColor(Parameters!serial_number.Value.ToString(), 113)</BackgroundColor>
+            </Style>
+          </Rectangle>
+          <Rectangle Name="Rectangle367">
+            <KeepTogether>true</KeepTogether>
+            <Top>0.25694in</Top>
+            <Left>4.29861in</Left>
+            <Height>0.95132in</Height>
+            <Width>0.01379in</Width>
+            <ZIndex>113</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BackgroundColor>=Code.GetBarcodeColor(Parameters!serial_number.Value.ToString(), 114)</BackgroundColor>
+            </Style>
+          </Rectangle>
+          <Rectangle Name="Rectangle368">
+            <KeepTogether>true</KeepTogether>
+            <Top>0.25694in</Top>
+            <Left>4.3124in</Left>
+            <Height>0.95132in</Height>
+            <Width>0.01379in</Width>
+            <ZIndex>114</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BackgroundColor>=Code.GetBarcodeColor(Parameters!serial_number.Value.ToString(), 115)</BackgroundColor>
+            </Style>
+          </Rectangle>
+          <Rectangle Name="Rectangle369">
+            <KeepTogether>true</KeepTogether>
+            <Top>0.25694in</Top>
+            <Left>4.32619in</Left>
+            <Height>0.95132in</Height>
+            <Width>0.01379in</Width>
+            <ZIndex>115</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BackgroundColor>=Code.GetBarcodeColor(Parameters!serial_number.Value.ToString(), 116)</BackgroundColor>
+            </Style>
+          </Rectangle>
+          <Rectangle Name="Rectangle370">
+            <KeepTogether>true</KeepTogether>
+            <Top>0.25694in</Top>
+            <Left>4.33998in</Left>
+            <Height>0.95132in</Height>
+            <Width>0.01379in</Width>
+            <ZIndex>116</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BackgroundColor>=Code.GetBarcodeColor(Parameters!serial_number.Value.ToString(), 117)</BackgroundColor>
+            </Style>
+          </Rectangle>
+          <Rectangle Name="Rectangle371">
+            <KeepTogether>true</KeepTogether>
+            <Top>0.25694in</Top>
+            <Left>4.35377in</Left>
+            <Height>0.95132in</Height>
+            <Width>0.01379in</Width>
+            <ZIndex>117</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BackgroundColor>=Code.GetBarcodeColor(Parameters!serial_number.Value.ToString(), 118)</BackgroundColor>
+            </Style>
+          </Rectangle>
+          <Rectangle Name="Rectangle372">
+            <KeepTogether>true</KeepTogether>
+            <Top>0.25694in</Top>
+            <Left>4.36756in</Left>
+            <Height>0.95132in</Height>
+            <Width>0.01379in</Width>
+            <ZIndex>118</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BackgroundColor>=Code.GetBarcodeColor(Parameters!serial_number.Value.ToString(), 119)</BackgroundColor>
+            </Style>
+          </Rectangle>
+          <Rectangle Name="Rectangle373">
+            <KeepTogether>true</KeepTogether>
+            <Top>0.25694in</Top>
+            <Left>4.38135in</Left>
+            <Height>0.95132in</Height>
+            <Width>0.01379in</Width>
+            <ZIndex>119</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BackgroundColor>=Code.GetBarcodeColor(Parameters!serial_number.Value.ToString(), 120)</BackgroundColor>
+            </Style>
+          </Rectangle>
+          <Rectangle Name="Rectangle374">
+            <KeepTogether>true</KeepTogether>
+            <Top>0.25694in</Top>
+            <Left>4.39514in</Left>
+            <Height>0.95132in</Height>
+            <Width>0.01379in</Width>
+            <ZIndex>120</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BackgroundColor>=Code.GetBarcodeColor(Parameters!serial_number.Value.ToString(), 121)</BackgroundColor>
+            </Style>
+          </Rectangle>
+          <Rectangle Name="Rectangle375">
+            <KeepTogether>true</KeepTogether>
+            <Top>0.25694in</Top>
+            <Left>4.40893in</Left>
+            <Height>0.95132in</Height>
+            <Width>0.01379in</Width>
+            <ZIndex>121</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BackgroundColor>=Code.GetBarcodeColor(Parameters!serial_number.Value.ToString(), 122)</BackgroundColor>
+            </Style>
+          </Rectangle>
+          <Rectangle Name="Rectangle376">
+            <KeepTogether>true</KeepTogether>
+            <Top>0.25694in</Top>
+            <Left>4.42272in</Left>
+            <Height>0.95132in</Height>
+            <Width>0.01379in</Width>
+            <ZIndex>122</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BackgroundColor>=Code.GetBarcodeColor(Parameters!serial_number.Value.ToString(), 123)</BackgroundColor>
+            </Style>
+          </Rectangle>
+          <Rectangle Name="Rectangle377">
+            <KeepTogether>true</KeepTogether>
+            <Top>0.25694in</Top>
+            <Left>4.43651in</Left>
+            <Height>0.95132in</Height>
+            <Width>0.01379in</Width>
+            <ZIndex>123</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BackgroundColor>=Code.GetBarcodeColor(Parameters!serial_number.Value.ToString(), 124)</BackgroundColor>
+            </Style>
+          </Rectangle>
+          <Rectangle Name="Rectangle378">
+            <KeepTogether>true</KeepTogether>
+            <Top>0.25694in</Top>
+            <Left>4.4503in</Left>
+            <Height>0.95132in</Height>
+            <Width>0.01379in</Width>
+            <ZIndex>124</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BackgroundColor>=Code.GetBarcodeColor(Parameters!serial_number.Value.ToString(), 125)</BackgroundColor>
+            </Style>
+          </Rectangle>
+          <Rectangle Name="Rectangle379">
+            <KeepTogether>true</KeepTogether>
+            <Top>0.25694in</Top>
+            <Left>4.46409in</Left>
+            <Height>0.95132in</Height>
+            <Width>0.01379in</Width>
+            <ZIndex>125</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BackgroundColor>=Code.GetBarcodeColor(Parameters!serial_number.Value.ToString(), 126)</BackgroundColor>
+            </Style>
+          </Rectangle>
+          <Rectangle Name="Rectangle380">
+            <KeepTogether>true</KeepTogether>
+            <Top>0.25694in</Top>
+            <Left>4.47788in</Left>
+            <Height>0.95132in</Height>
+            <Width>0.01379in</Width>
+            <ZIndex>126</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BackgroundColor>=Code.GetBarcodeColor(Parameters!serial_number.Value.ToString(), 127)</BackgroundColor>
+            </Style>
+          </Rectangle>
+          <Rectangle Name="Rectangle381">
+            <KeepTogether>true</KeepTogether>
+            <Top>0.25694in</Top>
+            <Left>4.49167in</Left>
+            <Height>0.95132in</Height>
+            <Width>0.01379in</Width>
+            <ZIndex>127</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BackgroundColor>=Code.GetBarcodeColor(Parameters!serial_number.Value.ToString(), 128)</BackgroundColor>
+            </Style>
+          </Rectangle>
+          <Rectangle Name="Rectangle382">
+            <KeepTogether>true</KeepTogether>
+            <Top>0.25694in</Top>
+            <Left>4.50546in</Left>
+            <Height>0.95132in</Height>
+            <Width>0.01379in</Width>
+            <ZIndex>128</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BackgroundColor>=Code.GetBarcodeColor(Parameters!serial_number.Value.ToString(), 129)</BackgroundColor>
+            </Style>
+          </Rectangle>
+          <Rectangle Name="Rectangle383">
+            <KeepTogether>true</KeepTogether>
+            <Top>0.25694in</Top>
+            <Left>4.51925in</Left>
+            <Height>0.95132in</Height>
+            <Width>0.01379in</Width>
+            <ZIndex>129</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BackgroundColor>=Code.GetBarcodeColor(Parameters!serial_number.Value.ToString(), 130)</BackgroundColor>
+            </Style>
+          </Rectangle>
+          <Rectangle Name="Rectangle384">
+            <KeepTogether>true</KeepTogether>
+            <Top>0.25694in</Top>
+            <Left>4.53304in</Left>
+            <Height>0.95132in</Height>
+            <Width>0.01379in</Width>
+            <ZIndex>130</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BackgroundColor>=Code.GetBarcodeColor(Parameters!serial_number.Value.ToString(), 131)</BackgroundColor>
+            </Style>
+          </Rectangle>
+          <Rectangle Name="Rectangle385">
+            <KeepTogether>true</KeepTogether>
+            <Top>0.25694in</Top>
+            <Left>4.54683in</Left>
+            <Height>0.95132in</Height>
+            <Width>0.01379in</Width>
+            <ZIndex>131</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BackgroundColor>=Code.GetBarcodeColor(Parameters!serial_number.Value.ToString(), 132)</BackgroundColor>
+            </Style>
+          </Rectangle>
+          <Rectangle Name="Rectangle386">
+            <KeepTogether>true</KeepTogether>
+            <Top>0.25694in</Top>
+            <Left>4.56062in</Left>
+            <Height>0.95132in</Height>
+            <Width>0.01379in</Width>
+            <ZIndex>132</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BackgroundColor>=Code.GetBarcodeColor(Parameters!serial_number.Value.ToString(), 133)</BackgroundColor>
+            </Style>
+          </Rectangle>
+          <Rectangle Name="Rectangle387">
+            <KeepTogether>true</KeepTogether>
+            <Top>0.25694in</Top>
+            <Left>4.57441in</Left>
+            <Height>0.95132in</Height>
+            <Width>0.01379in</Width>
+            <ZIndex>133</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BackgroundColor>=Code.GetBarcodeColor(Parameters!serial_number.Value.ToString(), 134)</BackgroundColor>
+            </Style>
+          </Rectangle>
+          <Rectangle Name="Rectangle388">
+            <KeepTogether>true</KeepTogether>
+            <Top>0.25694in</Top>
+            <Left>4.5882in</Left>
+            <Height>0.95132in</Height>
+            <Width>0.01379in</Width>
+            <ZIndex>134</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BackgroundColor>=Code.GetBarcodeColor(Parameters!serial_number.Value.ToString(), 135)</BackgroundColor>
+            </Style>
+          </Rectangle>
+          <Rectangle Name="Rectangle389">
+            <KeepTogether>true</KeepTogether>
+            <Top>0.25694in</Top>
+            <Left>4.60199in</Left>
+            <Height>0.95132in</Height>
+            <Width>0.01379in</Width>
+            <ZIndex>135</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BackgroundColor>=Code.GetBarcodeColor(Parameters!serial_number.Value.ToString(), 136)</BackgroundColor>
+            </Style>
+          </Rectangle>
+          <Rectangle Name="Rectangle390">
+            <KeepTogether>true</KeepTogether>
+            <Top>0.25694in</Top>
+            <Left>4.61578in</Left>
+            <Height>0.95132in</Height>
+            <Width>0.01379in</Width>
+            <ZIndex>136</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BackgroundColor>=Code.GetBarcodeColor(Parameters!serial_number.Value.ToString(), 137)</BackgroundColor>
+            </Style>
+          </Rectangle>
+          <Rectangle Name="Rectangle391">
+            <KeepTogether>true</KeepTogether>
+            <Top>0.25694in</Top>
+            <Left>4.62957in</Left>
+            <Height>0.95132in</Height>
+            <Width>0.01379in</Width>
+            <ZIndex>137</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BackgroundColor>=Code.GetBarcodeColor(Parameters!serial_number.Value.ToString(), 138)</BackgroundColor>
+            </Style>
+          </Rectangle>
+          <Rectangle Name="Rectangle392">
+            <KeepTogether>true</KeepTogether>
+            <Top>0.25694in</Top>
+            <Left>4.64336in</Left>
+            <Height>0.95132in</Height>
+            <Width>0.01379in</Width>
+            <ZIndex>138</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BackgroundColor>=Code.GetBarcodeColor(Parameters!serial_number.Value.ToString(), 139)</BackgroundColor>
+            </Style>
+          </Rectangle>
+          <Rectangle Name="Rectangle393">
+            <KeepTogether>true</KeepTogether>
+            <Top>0.25694in</Top>
+            <Left>4.65715in</Left>
+            <Height>0.95132in</Height>
+            <Width>0.01379in</Width>
+            <ZIndex>139</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BackgroundColor>=Code.GetBarcodeColor(Parameters!serial_number.Value.ToString(), 140)</BackgroundColor>
+            </Style>
+          </Rectangle>
+          <Rectangle Name="Rectangle394">
+            <KeepTogether>true</KeepTogether>
+            <Top>0.25694in</Top>
+            <Left>4.67094in</Left>
+            <Height>0.95132in</Height>
+            <Width>0.01379in</Width>
+            <ZIndex>140</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BackgroundColor>=Code.GetBarcodeColor(Parameters!serial_number.Value.ToString(), 141)</BackgroundColor>
+            </Style>
+          </Rectangle>
+          <Rectangle Name="Rectangle395">
+            <KeepTogether>true</KeepTogether>
+            <Top>0.25694in</Top>
+            <Left>4.68473in</Left>
+            <Height>0.95132in</Height>
+            <Width>0.01379in</Width>
+            <ZIndex>141</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BackgroundColor>=Code.GetBarcodeColor(Parameters!serial_number.Value.ToString(), 142)</BackgroundColor>
+            </Style>
+          </Rectangle>
+          <Rectangle Name="Rectangle396">
+            <KeepTogether>true</KeepTogether>
+            <Top>0.25694in</Top>
+            <Left>4.69852in</Left>
+            <Height>0.95132in</Height>
+            <Width>0.01379in</Width>
+            <ZIndex>142</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BackgroundColor>=Code.GetBarcodeColor(Parameters!serial_number.Value.ToString(), 143)</BackgroundColor>
+            </Style>
+          </Rectangle>
+          <Rectangle Name="Rectangle397">
+            <KeepTogether>true</KeepTogether>
+            <Top>0.25694in</Top>
+            <Left>4.71231in</Left>
+            <Height>0.95132in</Height>
+            <Width>0.01379in</Width>
+            <ZIndex>143</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BackgroundColor>=Code.GetBarcodeColor(Parameters!serial_number.Value.ToString(), 144)</BackgroundColor>
+            </Style>
+          </Rectangle>
+          <Rectangle Name="Rectangle398">
+            <KeepTogether>true</KeepTogether>
+            <Top>0.25694in</Top>
+            <Left>4.7261in</Left>
+            <Height>0.95132in</Height>
+            <Width>0.01379in</Width>
+            <ZIndex>144</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BackgroundColor>=Code.GetBarcodeColor(Parameters!serial_number.Value.ToString(), 145)</BackgroundColor>
+            </Style>
+          </Rectangle>
+          <Rectangle Name="Rectangle399">
+            <KeepTogether>true</KeepTogether>
+            <Top>0.25694in</Top>
+            <Left>4.73989in</Left>
+            <Height>0.95132in</Height>
+            <Width>0.01379in</Width>
+            <ZIndex>145</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BackgroundColor>=Code.GetBarcodeColor(Parameters!serial_number.Value.ToString(), 146)</BackgroundColor>
+            </Style>
+          </Rectangle>
+          <Rectangle Name="Rectangle400">
+            <KeepTogether>true</KeepTogether>
+            <Top>0.25694in</Top>
+            <Left>4.75368in</Left>
+            <Height>0.95132in</Height>
+            <Width>0.01379in</Width>
+            <ZIndex>146</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BackgroundColor>=Code.GetBarcodeColor(Parameters!serial_number.Value.ToString(), 147)</BackgroundColor>
+            </Style>
+          </Rectangle>
+          <Rectangle Name="Rectangle401">
+            <KeepTogether>true</KeepTogether>
+            <Top>0.25694in</Top>
+            <Left>4.76747in</Left>
+            <Height>0.95132in</Height>
+            <Width>0.01379in</Width>
+            <ZIndex>147</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BackgroundColor>=Code.GetBarcodeColor(Parameters!serial_number.Value.ToString(), 148)</BackgroundColor>
+            </Style>
+          </Rectangle>
+          <Rectangle Name="Rectangle402">
+            <KeepTogether>true</KeepTogether>
+            <Top>0.25694in</Top>
+            <Left>4.78126in</Left>
+            <Height>0.95132in</Height>
+            <Width>0.01379in</Width>
+            <ZIndex>148</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BackgroundColor>=Code.GetBarcodeColor(Parameters!serial_number.Value.ToString(), 149)</BackgroundColor>
+            </Style>
+          </Rectangle>
+          <Rectangle Name="Rectangle403">
+            <KeepTogether>true</KeepTogether>
+            <Top>0.25694in</Top>
+            <Left>4.79505in</Left>
+            <Height>0.95132in</Height>
+            <Width>0.01379in</Width>
+            <ZIndex>149</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BackgroundColor>=Code.GetBarcodeColor(Parameters!serial_number.Value.ToString(), 150)</BackgroundColor>
+            </Style>
+          </Rectangle>
+          <Rectangle Name="Rectangle404">
+            <KeepTogether>true</KeepTogether>
+            <Top>0.25694in</Top>
+            <Left>4.80884in</Left>
+            <Height>0.95132in</Height>
+            <Width>0.01379in</Width>
+            <ZIndex>150</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BackgroundColor>=Code.GetBarcodeColor(Parameters!serial_number.Value.ToString(), 151)</BackgroundColor>
+            </Style>
+          </Rectangle>
+          <Rectangle Name="Rectangle405">
+            <KeepTogether>true</KeepTogether>
+            <Top>0.25694in</Top>
+            <Left>4.82263in</Left>
+            <Height>0.95132in</Height>
+            <Width>0.01379in</Width>
+            <ZIndex>151</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BackgroundColor>=Code.GetBarcodeColor(Parameters!serial_number.Value.ToString(), 152)</BackgroundColor>
+            </Style>
+          </Rectangle>
+          <Rectangle Name="Rectangle406">
+            <KeepTogether>true</KeepTogether>
+            <Top>0.25694in</Top>
+            <Left>4.83642in</Left>
+            <Height>0.95132in</Height>
+            <Width>0.01379in</Width>
+            <ZIndex>152</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BackgroundColor>=Code.GetBarcodeColor(Parameters!serial_number.Value.ToString(), 153)</BackgroundColor>
+            </Style>
+          </Rectangle>
+          <Rectangle Name="Rectangle407">
+            <KeepTogether>true</KeepTogether>
+            <Top>0.25694in</Top>
+            <Left>4.85021in</Left>
+            <Height>0.95132in</Height>
+            <Width>0.01379in</Width>
+            <ZIndex>153</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BackgroundColor>=Code.GetBarcodeColor(Parameters!serial_number.Value.ToString(), 154)</BackgroundColor>
+            </Style>
+          </Rectangle>
+          <Rectangle Name="Rectangle408">
+            <KeepTogether>true</KeepTogether>
+            <Top>0.25694in</Top>
+            <Left>4.864in</Left>
+            <Height>0.95132in</Height>
+            <Width>0.01379in</Width>
+            <ZIndex>154</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BackgroundColor>=Code.GetBarcodeColor(Parameters!serial_number.Value.ToString(), 155)</BackgroundColor>
+            </Style>
+          </Rectangle>
+          <Rectangle Name="Rectangle409">
+            <KeepTogether>true</KeepTogether>
+            <Top>0.25694in</Top>
+            <Left>4.87779in</Left>
+            <Height>0.95132in</Height>
+            <Width>0.01379in</Width>
+            <ZIndex>155</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BackgroundColor>=Code.GetBarcodeColor(Parameters!serial_number.Value.ToString(), 156)</BackgroundColor>
+            </Style>
+          </Rectangle>
+          <Rectangle Name="Rectangle410">
+            <KeepTogether>true</KeepTogether>
+            <Top>0.25694in</Top>
+            <Left>4.89158in</Left>
+            <Height>0.95132in</Height>
+            <Width>0.01379in</Width>
+            <ZIndex>156</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BackgroundColor>=Code.GetBarcodeColor(Parameters!serial_number.Value.ToString(), 157)</BackgroundColor>
+            </Style>
+          </Rectangle>
+          <Rectangle Name="Rectangle411">
+            <KeepTogether>true</KeepTogether>
+            <Top>0.25694in</Top>
+            <Left>4.90537in</Left>
+            <Height>0.95132in</Height>
+            <Width>0.01379in</Width>
+            <ZIndex>157</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BackgroundColor>=Code.GetBarcodeColor(Parameters!serial_number.Value.ToString(), 158)</BackgroundColor>
+            </Style>
+          </Rectangle>
+          <Rectangle Name="Rectangle412">
+            <KeepTogether>true</KeepTogether>
+            <Top>0.25694in</Top>
+            <Left>4.91916in</Left>
+            <Height>0.95132in</Height>
+            <Width>0.01379in</Width>
+            <ZIndex>158</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BackgroundColor>=Code.GetBarcodeColor(Parameters!serial_number.Value.ToString(), 159)</BackgroundColor>
+            </Style>
+          </Rectangle>
+          <Rectangle Name="Rectangle413">
+            <KeepTogether>true</KeepTogether>
+            <Top>0.25694in</Top>
+            <Left>4.93295in</Left>
+            <Height>0.95132in</Height>
+            <Width>0.01379in</Width>
+            <ZIndex>159</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BackgroundColor>=Code.GetBarcodeColor(Parameters!serial_number.Value.ToString(), 160)</BackgroundColor>
+            </Style>
+          </Rectangle>
+          <Rectangle Name="Rectangle414">
+            <KeepTogether>true</KeepTogether>
+            <Top>0.25694in</Top>
+            <Left>4.94674in</Left>
+            <Height>0.95132in</Height>
+            <Width>0.01379in</Width>
+            <ZIndex>160</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BackgroundColor>=Code.GetBarcodeColor(Parameters!serial_number.Value.ToString(), 161)</BackgroundColor>
+            </Style>
+          </Rectangle>
+          <Rectangle Name="Rectangle415">
+            <KeepTogether>true</KeepTogether>
+            <Top>0.25694in</Top>
+            <Left>4.96053in</Left>
+            <Height>0.95132in</Height>
+            <Width>0.01379in</Width>
+            <ZIndex>161</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BackgroundColor>=Code.GetBarcodeColor(Parameters!serial_number.Value.ToString(), 162)</BackgroundColor>
+            </Style>
+          </Rectangle>
+          <Rectangle Name="Rectangle416">
+            <KeepTogether>true</KeepTogether>
+            <Top>0.25694in</Top>
+            <Left>4.97432in</Left>
+            <Height>0.95132in</Height>
+            <Width>0.01379in</Width>
+            <ZIndex>162</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BackgroundColor>=Code.GetBarcodeColor(Parameters!serial_number.Value.ToString(), 163)</BackgroundColor>
+            </Style>
+          </Rectangle>
+          <Rectangle Name="Rectangle417">
+            <KeepTogether>true</KeepTogether>
+            <Top>0.25694in</Top>
+            <Left>4.98811in</Left>
+            <Height>0.95132in</Height>
+            <Width>0.01379in</Width>
+            <ZIndex>163</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BackgroundColor>=Code.GetBarcodeColor(Parameters!serial_number.Value.ToString(), 164)</BackgroundColor>
+            </Style>
+          </Rectangle>
+          <Rectangle Name="Rectangle418">
+            <KeepTogether>true</KeepTogether>
+            <Top>0.25694in</Top>
+            <Left>5.0019in</Left>
+            <Height>0.95132in</Height>
+            <Width>0.01379in</Width>
+            <ZIndex>164</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BackgroundColor>=Code.GetBarcodeColor(Parameters!serial_number.Value.ToString(), 165)</BackgroundColor>
+            </Style>
+          </Rectangle>
+          <Rectangle Name="Rectangle419">
+            <KeepTogether>true</KeepTogether>
+            <Top>0.25694in</Top>
+            <Left>5.01569in</Left>
+            <Height>0.95132in</Height>
+            <Width>0.01379in</Width>
+            <ZIndex>165</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BackgroundColor>=Code.GetBarcodeColor(Parameters!serial_number.Value.ToString(), 166)</BackgroundColor>
+            </Style>
+          </Rectangle>
+          <Rectangle Name="Rectangle420">
+            <KeepTogether>true</KeepTogether>
+            <Top>0.25694in</Top>
+            <Left>5.02948in</Left>
+            <Height>0.95132in</Height>
+            <Width>0.01379in</Width>
+            <ZIndex>166</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BackgroundColor>=Code.GetBarcodeColor(Parameters!serial_number.Value.ToString(), 167)</BackgroundColor>
+            </Style>
+          </Rectangle>
+          <Rectangle Name="Rectangle421">
+            <KeepTogether>true</KeepTogether>
+            <Top>0.25694in</Top>
+            <Left>5.04327in</Left>
+            <Height>0.95132in</Height>
+            <Width>0.01379in</Width>
+            <ZIndex>167</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BackgroundColor>=Code.GetBarcodeColor(Parameters!serial_number.Value.ToString(), 168)</BackgroundColor>
+            </Style>
+          </Rectangle>
+          <Rectangle Name="Rectangle422">
+            <KeepTogether>true</KeepTogether>
+            <Top>0.25694in</Top>
+            <Left>5.05706in</Left>
+            <Height>0.95132in</Height>
+            <Width>0.01379in</Width>
+            <ZIndex>168</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BackgroundColor>=Code.GetBarcodeColor(Parameters!serial_number.Value.ToString(), 169)</BackgroundColor>
+            </Style>
+          </Rectangle>
+          <Rectangle Name="Rectangle423">
+            <KeepTogether>true</KeepTogether>
+            <Top>0.25694in</Top>
+            <Left>5.07085in</Left>
+            <Height>0.95132in</Height>
+            <Width>0.01379in</Width>
+            <ZIndex>169</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BackgroundColor>=Code.GetBarcodeColor(Parameters!serial_number.Value.ToString(), 170)</BackgroundColor>
+            </Style>
+          </Rectangle>
+          <Rectangle Name="Rectangle424">
+            <KeepTogether>true</KeepTogether>
+            <Top>0.25694in</Top>
+            <Left>5.08464in</Left>
+            <Height>0.95132in</Height>
+            <Width>0.01379in</Width>
+            <ZIndex>170</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BackgroundColor>=Code.GetBarcodeColor(Parameters!serial_number.Value.ToString(), 171)</BackgroundColor>
+            </Style>
+          </Rectangle>
+          <Rectangle Name="Rectangle425">
+            <KeepTogether>true</KeepTogether>
+            <Top>0.25694in</Top>
+            <Left>5.09843in</Left>
+            <Height>0.95132in</Height>
+            <Width>0.01379in</Width>
+            <ZIndex>171</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BackgroundColor>=Code.GetBarcodeColor(Parameters!serial_number.Value.ToString(), 172)</BackgroundColor>
+            </Style>
+          </Rectangle>
+          <Rectangle Name="Rectangle426">
+            <KeepTogether>true</KeepTogether>
+            <Top>0.25694in</Top>
+            <Left>5.11222in</Left>
+            <Height>0.95132in</Height>
+            <Width>0.01379in</Width>
+            <ZIndex>172</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BackgroundColor>=Code.GetBarcodeColor(Parameters!serial_number.Value.ToString(), 173)</BackgroundColor>
+            </Style>
+          </Rectangle>
+          <Rectangle Name="Rectangle427">
+            <KeepTogether>true</KeepTogether>
+            <Top>0.25694in</Top>
+            <Left>5.12601in</Left>
+            <Height>0.95132in</Height>
+            <Width>0.01379in</Width>
+            <ZIndex>173</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BackgroundColor>=Code.GetBarcodeColor(Parameters!serial_number.Value.ToString(), 174)</BackgroundColor>
+            </Style>
+          </Rectangle>
+          <Rectangle Name="Rectangle428">
+            <KeepTogether>true</KeepTogether>
+            <Top>0.25694in</Top>
+            <Left>5.1398in</Left>
+            <Height>0.95132in</Height>
+            <Width>0.01379in</Width>
+            <ZIndex>174</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BackgroundColor>=Code.GetBarcodeColor(Parameters!serial_number.Value.ToString(), 175)</BackgroundColor>
+            </Style>
+          </Rectangle>
+          <Rectangle Name="Rectangle429">
+            <KeepTogether>true</KeepTogether>
+            <Top>0.25694in</Top>
+            <Left>5.15359in</Left>
+            <Height>0.95132in</Height>
+            <Width>0.01379in</Width>
+            <ZIndex>175</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BackgroundColor>=Code.GetBarcodeColor(Parameters!serial_number.Value.ToString(), 176)</BackgroundColor>
+            </Style>
+          </Rectangle>
+          <Rectangle Name="Rectangle430">
+            <KeepTogether>true</KeepTogether>
+            <Top>0.25694in</Top>
+            <Left>5.16738in</Left>
+            <Height>0.95132in</Height>
+            <Width>0.01379in</Width>
+            <ZIndex>176</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BackgroundColor>=Code.GetBarcodeColor(Parameters!serial_number.Value.ToString(), 177)</BackgroundColor>
+            </Style>
+          </Rectangle>
+          <Rectangle Name="Rectangle431">
+            <KeepTogether>true</KeepTogether>
+            <Top>0.25694in</Top>
+            <Left>5.18117in</Left>
+            <Height>0.95132in</Height>
+            <Width>0.01379in</Width>
+            <ZIndex>177</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BackgroundColor>=Code.GetBarcodeColor(Parameters!serial_number.Value.ToString(), 178)</BackgroundColor>
+            </Style>
+          </Rectangle>
+          <Rectangle Name="Rectangle432">
+            <KeepTogether>true</KeepTogether>
+            <Top>0.25694in</Top>
+            <Left>5.19496in</Left>
+            <Height>0.95132in</Height>
+            <Width>0.01379in</Width>
+            <ZIndex>178</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BackgroundColor>=Code.GetBarcodeColor(Parameters!serial_number.Value.ToString(), 179)</BackgroundColor>
+            </Style>
+          </Rectangle>
+          <Rectangle Name="Rectangle433">
+            <KeepTogether>true</KeepTogether>
+            <Top>0.25694in</Top>
+            <Left>5.20875in</Left>
+            <Height>0.95132in</Height>
+            <Width>0.01379in</Width>
+            <ZIndex>179</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BackgroundColor>=Code.GetBarcodeColor(Parameters!serial_number.Value.ToString(), 180)</BackgroundColor>
+            </Style>
+          </Rectangle>
+          <Rectangle Name="Rectangle434">
+            <KeepTogether>true</KeepTogether>
+            <Top>0.25694in</Top>
+            <Left>5.22254in</Left>
+            <Height>0.95132in</Height>
+            <Width>0.01379in</Width>
+            <ZIndex>180</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BackgroundColor>=Code.GetBarcodeColor(Parameters!serial_number.Value.ToString(), 181)</BackgroundColor>
+            </Style>
+          </Rectangle>
+          <Rectangle Name="Rectangle435">
+            <KeepTogether>true</KeepTogether>
+            <Top>0.25694in</Top>
+            <Left>5.23633in</Left>
+            <Height>0.95132in</Height>
+            <Width>0.01379in</Width>
+            <ZIndex>181</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BackgroundColor>=Code.GetBarcodeColor(Parameters!serial_number.Value.ToString(), 182)</BackgroundColor>
+            </Style>
+          </Rectangle>
+          <Rectangle Name="Rectangle436">
+            <KeepTogether>true</KeepTogether>
+            <Top>0.25694in</Top>
+            <Left>5.25012in</Left>
+            <Height>0.95132in</Height>
+            <Width>0.01379in</Width>
+            <ZIndex>182</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BackgroundColor>=Code.GetBarcodeColor(Parameters!serial_number.Value.ToString(), 183)</BackgroundColor>
+            </Style>
+          </Rectangle>
+          <Rectangle Name="Rectangle437">
+            <KeepTogether>true</KeepTogether>
+            <Top>0.25694in</Top>
+            <Left>5.26391in</Left>
+            <Height>0.95132in</Height>
+            <Width>0.01379in</Width>
+            <ZIndex>183</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BackgroundColor>=Code.GetBarcodeColor(Parameters!serial_number.Value.ToString(), 184)</BackgroundColor>
+            </Style>
+          </Rectangle>
+          <Rectangle Name="Rectangle438">
+            <KeepTogether>true</KeepTogether>
+            <Top>0.25694in</Top>
+            <Left>5.2777in</Left>
+            <Height>0.95132in</Height>
+            <Width>0.01379in</Width>
+            <ZIndex>184</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BackgroundColor>=Code.GetBarcodeColor(Parameters!serial_number.Value.ToString(), 185)</BackgroundColor>
+            </Style>
+          </Rectangle>
+          <Rectangle Name="Rectangle439">
+            <KeepTogether>true</KeepTogether>
+            <Top>0.25694in</Top>
+            <Left>5.29149in</Left>
+            <Height>0.95132in</Height>
+            <Width>0.01379in</Width>
+            <ZIndex>185</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BackgroundColor>=Code.GetBarcodeColor(Parameters!serial_number.Value.ToString(), 186)</BackgroundColor>
+            </Style>
+          </Rectangle>
+          <Rectangle Name="Rectangle440">
+            <KeepTogether>true</KeepTogether>
+            <Top>0.25694in</Top>
+            <Left>5.30528in</Left>
+            <Height>0.95132in</Height>
+            <Width>0.01379in</Width>
+            <ZIndex>186</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BackgroundColor>=Code.GetBarcodeColor(Parameters!serial_number.Value.ToString(), 187)</BackgroundColor>
+            </Style>
+          </Rectangle>
+          <Rectangle Name="Rectangle441">
+            <KeepTogether>true</KeepTogether>
+            <Top>0.25694in</Top>
+            <Left>5.31907in</Left>
+            <Height>0.95132in</Height>
+            <Width>0.01379in</Width>
+            <ZIndex>187</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BackgroundColor>=Code.GetBarcodeColor(Parameters!serial_number.Value.ToString(), 188)</BackgroundColor>
+            </Style>
+          </Rectangle>
+          <Rectangle Name="Rectangle442">
+            <KeepTogether>true</KeepTogether>
+            <Top>0.25694in</Top>
+            <Left>5.33286in</Left>
+            <Height>0.95132in</Height>
+            <Width>0.01379in</Width>
+            <ZIndex>188</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BackgroundColor>=Code.GetBarcodeColor(Parameters!serial_number.Value.ToString(), 189)</BackgroundColor>
+            </Style>
+          </Rectangle>
+          <Rectangle Name="Rectangle443">
+            <KeepTogether>true</KeepTogether>
+            <Top>0.25694in</Top>
+            <Left>5.34665in</Left>
+            <Height>0.95132in</Height>
+            <Width>0.01379in</Width>
+            <ZIndex>189</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BackgroundColor>=Code.GetBarcodeColor(Parameters!serial_number.Value.ToString(), 190)</BackgroundColor>
+            </Style>
+          </Rectangle>
+          <Rectangle Name="Rectangle444">
+            <KeepTogether>true</KeepTogether>
+            <Top>0.25694in</Top>
+            <Left>5.36044in</Left>
+            <Height>0.95132in</Height>
+            <Width>0.01379in</Width>
+            <ZIndex>190</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BackgroundColor>=Code.GetBarcodeColor(Parameters!serial_number.Value.ToString(), 191)</BackgroundColor>
+            </Style>
+          </Rectangle>
+          <Rectangle Name="Rectangle445">
+            <KeepTogether>true</KeepTogether>
+            <Top>0.25694in</Top>
+            <Left>5.37423in</Left>
+            <Height>0.95132in</Height>
+            <Width>0.01379in</Width>
+            <ZIndex>191</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BackgroundColor>=Code.GetBarcodeColor(Parameters!serial_number.Value.ToString(), 192)</BackgroundColor>
+            </Style>
+          </Rectangle>
+          <Rectangle Name="Rectangle446">
+            <KeepTogether>true</KeepTogether>
+            <Top>0.25694in</Top>
+            <Left>5.38802in</Left>
+            <Height>0.95132in</Height>
+            <Width>0.01379in</Width>
+            <ZIndex>192</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BackgroundColor>=Code.GetBarcodeColor(Parameters!serial_number.Value.ToString(), 193)</BackgroundColor>
+            </Style>
+          </Rectangle>
+          <Rectangle Name="Rectangle447">
+            <KeepTogether>true</KeepTogether>
+            <Top>0.25694in</Top>
+            <Left>5.40181in</Left>
+            <Height>0.95132in</Height>
+            <Width>0.01379in</Width>
+            <ZIndex>193</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BackgroundColor>=Code.GetBarcodeColor(Parameters!serial_number.Value.ToString(), 194)</BackgroundColor>
+            </Style>
+          </Rectangle>
+          <Rectangle Name="Rectangle448">
+            <KeepTogether>true</KeepTogether>
+            <Top>0.25694in</Top>
+            <Left>5.4156in</Left>
+            <Height>0.95132in</Height>
+            <Width>0.01379in</Width>
+            <ZIndex>194</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BackgroundColor>=Code.GetBarcodeColor(Parameters!serial_number.Value.ToString(), 195)</BackgroundColor>
+            </Style>
+          </Rectangle>
+          <Rectangle Name="Rectangle449">
+            <KeepTogether>true</KeepTogether>
+            <Top>0.25694in</Top>
+            <Left>5.42939in</Left>
+            <Height>0.95132in</Height>
+            <Width>0.01379in</Width>
+            <ZIndex>195</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BackgroundColor>=Code.GetBarcodeColor(Parameters!serial_number.Value.ToString(), 196)</BackgroundColor>
+            </Style>
+          </Rectangle>
+          <Rectangle Name="Rectangle450">
+            <KeepTogether>true</KeepTogether>
+            <Top>0.25694in</Top>
+            <Left>5.44318in</Left>
+            <Height>0.95132in</Height>
+            <Width>0.01379in</Width>
+            <ZIndex>196</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BackgroundColor>=Code.GetBarcodeColor(Parameters!serial_number.Value.ToString(), 197)</BackgroundColor>
+            </Style>
+          </Rectangle>
+          <Rectangle Name="Rectangle451">
+            <KeepTogether>true</KeepTogether>
+            <Top>0.25694in</Top>
+            <Left>5.45697in</Left>
+            <Height>0.95132in</Height>
+            <Width>0.01379in</Width>
+            <ZIndex>197</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BackgroundColor>=Code.GetBarcodeColor(Parameters!serial_number.Value.ToString(), 198)</BackgroundColor>
+            </Style>
+          </Rectangle>
+          <Rectangle Name="Rectangle452">
+            <KeepTogether>true</KeepTogether>
+            <Top>0.25694in</Top>
+            <Left>5.47076in</Left>
+            <Height>0.95132in</Height>
+            <Width>0.01379in</Width>
+            <ZIndex>198</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BackgroundColor>=Code.GetBarcodeColor(Parameters!serial_number.Value.ToString(), 199)</BackgroundColor>
+            </Style>
+          </Rectangle>
+          <Rectangle Name="Rectangle453">
+            <KeepTogether>true</KeepTogether>
+            <Top>0.25694in</Top>
+            <Left>5.48455in</Left>
+            <Height>0.95132in</Height>
+            <Width>0.01379in</Width>
+            <ZIndex>199</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BackgroundColor>=Code.GetBarcodeColor(Parameters!serial_number.Value.ToString(), 200)</BackgroundColor>
+            </Style>
+          </Rectangle>
+          <Rectangle Name="Rectangle454">
+            <KeepTogether>true</KeepTogether>
+            <Top>0.25694in</Top>
+            <Left>5.49834in</Left>
+            <Height>0.95132in</Height>
+            <Width>0.01379in</Width>
+            <ZIndex>200</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BackgroundColor>=Code.GetBarcodeColor(Parameters!serial_number.Value.ToString(), 201)</BackgroundColor>
+            </Style>
+          </Rectangle>
+          <Rectangle Name="Rectangle455">
+            <KeepTogether>true</KeepTogether>
+            <Top>0.25694in</Top>
+            <Left>5.51213in</Left>
+            <Height>0.95132in</Height>
+            <Width>0.01379in</Width>
+            <ZIndex>201</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BackgroundColor>=Code.GetBarcodeColor(Parameters!serial_number.Value.ToString(), 202)</BackgroundColor>
+            </Style>
+          </Rectangle>
+          <Rectangle Name="Rectangle456">
+            <KeepTogether>true</KeepTogether>
+            <Top>0.25694in</Top>
+            <Left>5.52592in</Left>
+            <Height>0.95132in</Height>
+            <Width>0.01379in</Width>
+            <ZIndex>202</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BackgroundColor>=Code.GetBarcodeColor(Parameters!serial_number.Value.ToString(), 203)</BackgroundColor>
+            </Style>
+          </Rectangle>
+          <Rectangle Name="Rectangle457">
+            <KeepTogether>true</KeepTogether>
+            <Top>0.25694in</Top>
+            <Left>5.53971in</Left>
+            <Height>0.95132in</Height>
+            <Width>0.01379in</Width>
+            <ZIndex>203</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BackgroundColor>=Code.GetBarcodeColor(Parameters!serial_number.Value.ToString(), 204)</BackgroundColor>
+            </Style>
+          </Rectangle>
+          <Rectangle Name="Rectangle458">
+            <KeepTogether>true</KeepTogether>
+            <Top>0.25694in</Top>
+            <Left>5.5535in</Left>
+            <Height>0.95132in</Height>
+            <Width>0.01379in</Width>
+            <ZIndex>204</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BackgroundColor>=Code.GetBarcodeColor(Parameters!serial_number.Value.ToString(), 205)</BackgroundColor>
+            </Style>
+          </Rectangle>
+          <Rectangle Name="Rectangle459">
+            <KeepTogether>true</KeepTogether>
+            <Top>0.25694in</Top>
+            <Left>5.56729in</Left>
+            <Height>0.95132in</Height>
+            <Width>0.01379in</Width>
+            <ZIndex>205</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BackgroundColor>=Code.GetBarcodeColor(Parameters!serial_number.Value.ToString(), 206)</BackgroundColor>
+            </Style>
+          </Rectangle>
+          <Rectangle Name="Rectangle460">
+            <KeepTogether>true</KeepTogether>
+            <Top>0.25694in</Top>
+            <Left>5.58108in</Left>
+            <Height>0.95132in</Height>
+            <Width>0.01379in</Width>
+            <ZIndex>206</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BackgroundColor>=Code.GetBarcodeColor(Parameters!serial_number.Value.ToString(), 207)</BackgroundColor>
+            </Style>
+          </Rectangle>
+          <Rectangle Name="Rectangle461">
+            <KeepTogether>true</KeepTogether>
+            <Top>0.25694in</Top>
+            <Left>5.59487in</Left>
+            <Height>0.95132in</Height>
+            <Width>0.01379in</Width>
+            <ZIndex>207</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BackgroundColor>=Code.GetBarcodeColor(Parameters!serial_number.Value.ToString(), 208)</BackgroundColor>
+            </Style>
+          </Rectangle>
+          <Rectangle Name="Rectangle462">
+            <KeepTogether>true</KeepTogether>
+            <Top>0.25694in</Top>
+            <Left>5.60866in</Left>
+            <Height>0.95132in</Height>
+            <Width>0.01379in</Width>
+            <ZIndex>208</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BackgroundColor>=Code.GetBarcodeColor(Parameters!serial_number.Value.ToString(), 209)</BackgroundColor>
+            </Style>
+          </Rectangle>
+          <Rectangle Name="Rectangle463">
+            <KeepTogether>true</KeepTogether>
+            <Top>0.25694in</Top>
+            <Left>5.62245in</Left>
+            <Height>0.95132in</Height>
+            <Width>0.01379in</Width>
+            <ZIndex>209</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BackgroundColor>=Code.GetBarcodeColor(Parameters!serial_number.Value.ToString(), 210)</BackgroundColor>
+            </Style>
+          </Rectangle>
+          <Rectangle Name="Rectangle464">
+            <KeepTogether>true</KeepTogether>
+            <Top>0.25694in</Top>
+            <Left>5.63624in</Left>
+            <Height>0.95132in</Height>
+            <Width>0.01379in</Width>
+            <ZIndex>210</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BackgroundColor>=Code.GetBarcodeColor(Parameters!serial_number.Value.ToString(), 211)</BackgroundColor>
+            </Style>
+          </Rectangle>
+          <Rectangle Name="Rectangle465">
+            <KeepTogether>true</KeepTogether>
+            <Top>0.25694in</Top>
+            <Left>5.65003in</Left>
+            <Height>0.95132in</Height>
+            <Width>0.01379in</Width>
+            <ZIndex>211</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BackgroundColor>=Code.GetBarcodeColor(Parameters!serial_number.Value.ToString(), 212)</BackgroundColor>
+            </Style>
+          </Rectangle>
+          <Rectangle Name="Rectangle466">
+            <KeepTogether>true</KeepTogether>
+            <Top>0.25694in</Top>
+            <Left>5.66382in</Left>
+            <Height>0.95132in</Height>
+            <Width>0.01379in</Width>
+            <ZIndex>212</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BackgroundColor>=Code.GetBarcodeColor(Parameters!serial_number.Value.ToString(), 213)</BackgroundColor>
+            </Style>
+          </Rectangle>
+          <Rectangle Name="Rectangle467">
+            <KeepTogether>true</KeepTogether>
+            <Top>0.25694in</Top>
+            <Left>5.67761in</Left>
+            <Height>0.95132in</Height>
+            <Width>0.01379in</Width>
+            <ZIndex>213</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BackgroundColor>=Code.GetBarcodeColor(Parameters!serial_number.Value.ToString(), 214)</BackgroundColor>
+            </Style>
+          </Rectangle>
+          <Rectangle Name="Rectangle468">
+            <KeepTogether>true</KeepTogether>
+            <Top>0.25694in</Top>
+            <Left>5.6914in</Left>
+            <Height>0.95132in</Height>
+            <Width>0.01379in</Width>
+            <ZIndex>214</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BackgroundColor>=Code.GetBarcodeColor(Parameters!serial_number.Value.ToString(), 215)</BackgroundColor>
+            </Style>
+          </Rectangle>
+          <Rectangle Name="Rectangle469">
+            <KeepTogether>true</KeepTogether>
+            <Top>0.25694in</Top>
+            <Left>5.70519in</Left>
+            <Height>0.95132in</Height>
+            <Width>0.01379in</Width>
+            <ZIndex>215</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BackgroundColor>=Code.GetBarcodeColor(Parameters!serial_number.Value.ToString(), 216)</BackgroundColor>
+            </Style>
+          </Rectangle>
+          <Rectangle Name="Rectangle470">
+            <KeepTogether>true</KeepTogether>
+            <Top>0.25694in</Top>
+            <Left>5.71898in</Left>
+            <Height>0.95132in</Height>
+            <Width>0.01379in</Width>
+            <ZIndex>216</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BackgroundColor>=Code.GetBarcodeColor(Parameters!serial_number.Value.ToString(), 217)</BackgroundColor>
+            </Style>
+          </Rectangle>
+          <Rectangle Name="Rectangle471">
+            <KeepTogether>true</KeepTogether>
+            <Top>0.25694in</Top>
+            <Left>5.73277in</Left>
+            <Height>0.95132in</Height>
+            <Width>0.01379in</Width>
+            <ZIndex>217</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BackgroundColor>=Code.GetBarcodeColor(Parameters!serial_number.Value.ToString(), 218)</BackgroundColor>
+            </Style>
+          </Rectangle>
+          <Rectangle Name="Rectangle472">
+            <KeepTogether>true</KeepTogether>
+            <Top>0.25694in</Top>
+            <Left>5.74656in</Left>
+            <Height>0.95132in</Height>
+            <Width>0.01379in</Width>
+            <ZIndex>218</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BackgroundColor>=Code.GetBarcodeColor(Parameters!serial_number.Value.ToString(), 219)</BackgroundColor>
+            </Style>
+          </Rectangle>
+          <Rectangle Name="Rectangle473">
+            <KeepTogether>true</KeepTogether>
+            <Top>0.25694in</Top>
+            <Left>5.76035in</Left>
+            <Height>0.95132in</Height>
+            <Width>0.01379in</Width>
+            <ZIndex>219</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BackgroundColor>=Code.GetBarcodeColor(Parameters!serial_number.Value.ToString(), 220)</BackgroundColor>
+            </Style>
+          </Rectangle>
+          <Rectangle Name="Rectangle474">
+            <KeepTogether>true</KeepTogether>
+            <Top>0.25694in</Top>
+            <Left>5.77414in</Left>
+            <Height>0.95132in</Height>
+            <Width>0.01379in</Width>
+            <ZIndex>220</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BackgroundColor>=Code.GetBarcodeColor(Parameters!serial_number.Value.ToString(), 221)</BackgroundColor>
+            </Style>
+          </Rectangle>
+          <Rectangle Name="Rectangle475">
+            <KeepTogether>true</KeepTogether>
+            <Top>0.25694in</Top>
+            <Left>5.78793in</Left>
+            <Height>0.95132in</Height>
+            <Width>0.01379in</Width>
+            <ZIndex>221</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BackgroundColor>=Code.GetBarcodeColor(Parameters!serial_number.Value.ToString(), 222)</BackgroundColor>
+            </Style>
+          </Rectangle>
+          <Rectangle Name="Rectangle476">
+            <KeepTogether>true</KeepTogether>
+            <Top>0.25694in</Top>
+            <Left>5.80172in</Left>
+            <Height>0.95132in</Height>
+            <Width>0.01379in</Width>
+            <ZIndex>222</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BackgroundColor>=Code.GetBarcodeColor(Parameters!serial_number.Value.ToString(), 223)</BackgroundColor>
+            </Style>
+          </Rectangle>
+          <Rectangle Name="Rectangle477">
+            <KeepTogether>true</KeepTogether>
+            <Top>0.25694in</Top>
+            <Left>5.81551in</Left>
+            <Height>0.95132in</Height>
+            <Width>0.01379in</Width>
+            <ZIndex>223</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BackgroundColor>=Code.GetBarcodeColor(Parameters!serial_number.Value.ToString(), 224)</BackgroundColor>
+            </Style>
+          </Rectangle>
+          <Rectangle Name="Rectangle478">
+            <KeepTogether>true</KeepTogether>
+            <Top>0.25694in</Top>
+            <Left>5.8293in</Left>
+            <Height>0.95132in</Height>
+            <Width>0.01379in</Width>
+            <ZIndex>224</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BackgroundColor>=Code.GetBarcodeColor(Parameters!serial_number.Value.ToString(), 225)</BackgroundColor>
+            </Style>
+          </Rectangle>
+          <Rectangle Name="Rectangle479">
+            <KeepTogether>true</KeepTogether>
+            <Top>0.25694in</Top>
+            <Left>5.84309in</Left>
+            <Height>0.95132in</Height>
+            <Width>0.01379in</Width>
+            <ZIndex>225</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BackgroundColor>=Code.GetBarcodeColor(Parameters!serial_number.Value.ToString(), 226)</BackgroundColor>
+            </Style>
+          </Rectangle>
+          <Rectangle Name="Rectangle480">
+            <KeepTogether>true</KeepTogether>
+            <Top>0.25694in</Top>
+            <Left>5.85688in</Left>
+            <Height>0.95132in</Height>
+            <Width>0.01379in</Width>
+            <ZIndex>226</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BackgroundColor>=Code.GetBarcodeColor(Parameters!serial_number.Value.ToString(), 227)</BackgroundColor>
+            </Style>
+          </Rectangle>
+          <Rectangle Name="Rectangle481">
+            <KeepTogether>true</KeepTogether>
+            <Top>0.25694in</Top>
+            <Left>5.87067in</Left>
+            <Height>0.95132in</Height>
+            <Width>0.01379in</Width>
+            <ZIndex>227</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BackgroundColor>=Code.GetBarcodeColor(Parameters!serial_number.Value.ToString(), 228)</BackgroundColor>
+            </Style>
+          </Rectangle>
+          <Rectangle Name="Rectangle482">
+            <KeepTogether>true</KeepTogether>
+            <Top>0.25694in</Top>
+            <Left>5.88446in</Left>
+            <Height>0.95132in</Height>
+            <Width>0.01379in</Width>
+            <ZIndex>228</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BackgroundColor>=Code.GetBarcodeColor(Parameters!serial_number.Value.ToString(), 229)</BackgroundColor>
+            </Style>
+          </Rectangle>
+          <Rectangle Name="Rectangle483">
+            <KeepTogether>true</KeepTogether>
+            <Top>0.25694in</Top>
+            <Left>5.89825in</Left>
+            <Height>0.95132in</Height>
+            <Width>0.01379in</Width>
+            <ZIndex>229</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BackgroundColor>=Code.GetBarcodeColor(Parameters!serial_number.Value.ToString(), 230)</BackgroundColor>
+            </Style>
+          </Rectangle>
+          <Rectangle Name="Rectangle484">
+            <KeepTogether>true</KeepTogether>
+            <Top>0.25694in</Top>
+            <Left>5.91204in</Left>
+            <Height>0.95132in</Height>
+            <Width>0.01379in</Width>
+            <ZIndex>230</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BackgroundColor>=Code.GetBarcodeColor(Parameters!serial_number.Value.ToString(), 231)</BackgroundColor>
+            </Style>
+          </Rectangle>
+          <Rectangle Name="Rectangle485">
+            <KeepTogether>true</KeepTogether>
+            <Top>0.25694in</Top>
+            <Left>5.92583in</Left>
+            <Height>0.95132in</Height>
+            <Width>0.01379in</Width>
+            <ZIndex>231</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BackgroundColor>=Code.GetBarcodeColor(Parameters!serial_number.Value.ToString(), 232)</BackgroundColor>
+            </Style>
+          </Rectangle>
+          <Rectangle Name="Rectangle486">
+            <KeepTogether>true</KeepTogether>
+            <Top>0.25694in</Top>
+            <Left>5.93962in</Left>
+            <Height>0.95132in</Height>
+            <Width>0.01379in</Width>
+            <ZIndex>232</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BackgroundColor>=Code.GetBarcodeColor(Parameters!serial_number.Value.ToString(), 233)</BackgroundColor>
+            </Style>
+          </Rectangle>
+          <Rectangle Name="Rectangle487">
+            <KeepTogether>true</KeepTogether>
+            <Top>0.25694in</Top>
+            <Left>5.95341in</Left>
+            <Height>0.95132in</Height>
+            <Width>0.01379in</Width>
+            <ZIndex>233</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BackgroundColor>=Code.GetBarcodeColor(Parameters!serial_number.Value.ToString(), 234)</BackgroundColor>
+            </Style>
+          </Rectangle>
+          <Rectangle Name="Rectangle488">
+            <KeepTogether>true</KeepTogether>
+            <Top>0.25694in</Top>
+            <Left>5.9672in</Left>
+            <Height>0.95132in</Height>
+            <Width>0.01379in</Width>
+            <ZIndex>234</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BackgroundColor>=Code.GetBarcodeColor(Parameters!serial_number.Value.ToString(), 235)</BackgroundColor>
+            </Style>
+          </Rectangle>
+          <Rectangle Name="Rectangle489">
+            <KeepTogether>true</KeepTogether>
+            <Top>0.25694in</Top>
+            <Left>5.98099in</Left>
+            <Height>0.95132in</Height>
+            <Width>0.01379in</Width>
+            <ZIndex>235</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BackgroundColor>=Code.GetBarcodeColor(Parameters!serial_number.Value.ToString(), 236)</BackgroundColor>
+            </Style>
+          </Rectangle>
+          <Rectangle Name="Rectangle490">
+            <KeepTogether>true</KeepTogether>
+            <Top>0.25694in</Top>
+            <Left>5.99478in</Left>
+            <Height>0.95132in</Height>
+            <Width>0.01379in</Width>
+            <ZIndex>236</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BackgroundColor>=Code.GetBarcodeColor(Parameters!serial_number.Value.ToString(), 237)</BackgroundColor>
+            </Style>
+          </Rectangle>
+          <Rectangle Name="Rectangle491">
+            <KeepTogether>true</KeepTogether>
+            <Top>0.25694in</Top>
+            <Left>6.00857in</Left>
+            <Height>0.95132in</Height>
+            <Width>0.01379in</Width>
+            <ZIndex>237</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BackgroundColor>=Code.GetBarcodeColor(Parameters!serial_number.Value.ToString(), 238)</BackgroundColor>
+            </Style>
+          </Rectangle>
+          <Rectangle Name="Rectangle492">
+            <KeepTogether>true</KeepTogether>
+            <Top>0.25694in</Top>
+            <Left>6.02236in</Left>
+            <Height>0.95132in</Height>
+            <Width>0.01379in</Width>
+            <ZIndex>238</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BackgroundColor>=Code.GetBarcodeColor(Parameters!serial_number.Value.ToString(), 239)</BackgroundColor>
+            </Style>
+          </Rectangle>
+          <Rectangle Name="Rectangle493">
+            <KeepTogether>true</KeepTogether>
+            <Top>0.25694in</Top>
+            <Left>6.03615in</Left>
+            <Height>0.95132in</Height>
+            <Width>0.01379in</Width>
+            <ZIndex>239</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BackgroundColor>=Code.GetBarcodeColor(Parameters!serial_number.Value.ToString(), 240)</BackgroundColor>
+            </Style>
+          </Rectangle>
+          <Rectangle Name="Rectangle494">
+            <KeepTogether>true</KeepTogether>
+            <Top>0.25694in</Top>
+            <Left>6.04994in</Left>
+            <Height>0.95132in</Height>
+            <Width>0.01379in</Width>
+            <ZIndex>240</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BackgroundColor>=Code.GetBarcodeColor(Parameters!serial_number.Value.ToString(), 241)</BackgroundColor>
+            </Style>
+          </Rectangle>
+          <Rectangle Name="Rectangle495">
+            <KeepTogether>true</KeepTogether>
+            <Top>0.25694in</Top>
+            <Left>6.06373in</Left>
+            <Height>0.95132in</Height>
+            <Width>0.01379in</Width>
+            <ZIndex>241</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BackgroundColor>=Code.GetBarcodeColor(Parameters!serial_number.Value.ToString(), 242)</BackgroundColor>
+            </Style>
+          </Rectangle>
+          <Rectangle Name="Rectangle496">
+            <KeepTogether>true</KeepTogether>
+            <Top>0.25694in</Top>
+            <Left>6.07752in</Left>
+            <Height>0.95132in</Height>
+            <Width>0.01379in</Width>
+            <ZIndex>242</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BackgroundColor>=Code.GetBarcodeColor(Parameters!serial_number.Value.ToString(), 243)</BackgroundColor>
+            </Style>
+          </Rectangle>
+          <Rectangle Name="Rectangle497">
+            <KeepTogether>true</KeepTogether>
+            <Top>0.25694in</Top>
+            <Left>6.09131in</Left>
+            <Height>0.95132in</Height>
+            <Width>0.01379in</Width>
+            <ZIndex>243</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BackgroundColor>=Code.GetBarcodeColor(Parameters!serial_number.Value.ToString(), 244)</BackgroundColor>
+            </Style>
+          </Rectangle>
+          <Rectangle Name="Rectangle498">
+            <KeepTogether>true</KeepTogether>
+            <Top>0.25694in</Top>
+            <Left>6.1051in</Left>
+            <Height>0.95132in</Height>
+            <Width>0.01379in</Width>
+            <ZIndex>244</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BackgroundColor>=Code.GetBarcodeColor(Parameters!serial_number.Value.ToString(), 245)</BackgroundColor>
+            </Style>
+          </Rectangle>
+          <Rectangle Name="Rectangle499">
+            <KeepTogether>true</KeepTogether>
+            <Top>0.25694in</Top>
+            <Left>6.11889in</Left>
+            <Height>0.95132in</Height>
+            <Width>0.01379in</Width>
+            <ZIndex>245</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BackgroundColor>=Code.GetBarcodeColor(Parameters!serial_number.Value.ToString(), 246)</BackgroundColor>
+            </Style>
+          </Rectangle>
+          <Rectangle Name="Rectangle500">
+            <KeepTogether>true</KeepTogether>
+            <Top>0.25694in</Top>
+            <Left>6.13268in</Left>
+            <Height>0.95132in</Height>
+            <Width>0.01379in</Width>
+            <ZIndex>246</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BackgroundColor>=Code.GetBarcodeColor(Parameters!serial_number.Value.ToString(), 247)</BackgroundColor>
+            </Style>
+          </Rectangle>
+          <Rectangle Name="Rectangle501">
+            <KeepTogether>true</KeepTogether>
+            <Top>0.25694in</Top>
+            <Left>6.14647in</Left>
+            <Height>0.95132in</Height>
+            <Width>0.01379in</Width>
+            <ZIndex>247</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BackgroundColor>=Code.GetBarcodeColor(Parameters!serial_number.Value.ToString(), 248)</BackgroundColor>
+            </Style>
+          </Rectangle>
+          <Rectangle Name="Rectangle502">
+            <KeepTogether>true</KeepTogether>
+            <Top>0.25694in</Top>
+            <Left>6.16026in</Left>
+            <Height>0.95132in</Height>
+            <Width>0.01379in</Width>
+            <ZIndex>248</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BackgroundColor>=Code.GetBarcodeColor(Parameters!serial_number.Value.ToString(), 249)</BackgroundColor>
+            </Style>
+          </Rectangle>
+          <Rectangle Name="Rectangle503">
+            <KeepTogether>true</KeepTogether>
+            <Top>0.25694in</Top>
+            <Left>6.17405in</Left>
+            <Height>0.95132in</Height>
+            <Width>0.01379in</Width>
+            <ZIndex>249</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BackgroundColor>=Code.GetBarcodeColor(Parameters!serial_number.Value.ToString(), 250)</BackgroundColor>
+            </Style>
+          </Rectangle>
+          <Rectangle Name="Rectangle504">
+            <KeepTogether>true</KeepTogether>
+            <Top>0.25694in</Top>
+            <Left>6.18784in</Left>
+            <Height>0.95132in</Height>
+            <Width>0.01379in</Width>
+            <ZIndex>250</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BackgroundColor>=Code.GetBarcodeColor(Parameters!serial_number.Value.ToString(), 251)</BackgroundColor>
+            </Style>
+          </Rectangle>
+          <Rectangle Name="Rectangle505">
+            <KeepTogether>true</KeepTogether>
+            <Top>0.25694in</Top>
+            <Left>6.20163in</Left>
+            <Height>0.95132in</Height>
+            <Width>0.01379in</Width>
+            <ZIndex>251</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BackgroundColor>=Code.GetBarcodeColor(Parameters!serial_number.Value.ToString(), 252)</BackgroundColor>
+            </Style>
+          </Rectangle>
+          <Rectangle Name="Rectangle506">
+            <KeepTogether>true</KeepTogether>
+            <Top>0.25694in</Top>
+            <Left>6.21542in</Left>
+            <Height>0.95132in</Height>
+            <Width>0.01379in</Width>
+            <ZIndex>252</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BackgroundColor>=Code.GetBarcodeColor(Parameters!serial_number.Value.ToString(), 253)</BackgroundColor>
+            </Style>
+          </Rectangle>
+          <Textbox Name="Textbox9">
+            <rd:DefaultName>Textbox9</rd:DefaultName>
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>=Parameters!serial_number.Value</Value>
+                    <Style>
+                      <FontSize>12pt</FontSize>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style>
+                  <TextAlign>Center</TextAlign>
+                </Style>
+              </Paragraph>
+            </Paragraphs>
+            <Top>1.3917in</Top>
+            <Left>3.41605in</Left>
+            <Height>0.36111in</Height>
+            <Width>2.05644in</Width>
+            <ZIndex>253</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+        </ReportItems>
+        <Height>102.62653mm</Height>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+        </Style>
+      </Body>
+      <Width>275.92807mm</Width>
+      <Page>
+        <PageHeader>
+          <Height>42.24503mm</Height>
+          <PrintOnFirstPage>true</PrintOnFirstPage>
+          <PrintOnLastPage>true</PrintOnLastPage>
+          <ReportItems>
+            <Textbox Name="Textbox7">
+              <rd:DefaultName>Textbox7</rd:DefaultName>
+              <CanGrow>true</CanGrow>
+              <KeepTogether>true</KeepTogether>
+              <Paragraphs>
+                <Paragraph>
+                  <TextRuns>
+                    <TextRun>
+                      <Value>Code128 18 Char Len Barcode Example</Value>
+                      <Style>
+                        <FontFamily>Arial</FontFamily>
+                        <FontSize>22pt</FontSize>
+                        <FontWeight>Bold</FontWeight>
+                      </Style>
+                    </TextRun>
+                  </TextRuns>
+                  <Style>
+                    <TextAlign>Center</TextAlign>
+                  </Style>
+                </Paragraph>
+              </Paragraphs>
+              <Top>23.07511mm</Top>
+              <Left>35.72761mm</Left>
+              <Height>11.05605mm</Height>
+              <Width>159.14978mm</Width>
+              <Style>
+                <Border>
+                  <Style>None</Style>
+                </Border>
+                <VerticalAlign>Middle</VerticalAlign>
+                <PaddingLeft>2pt</PaddingLeft>
+                <PaddingRight>2pt</PaddingRight>
+                <PaddingTop>2pt</PaddingTop>
+                <PaddingBottom>2pt</PaddingBottom>
+              </Style>
+            </Textbox>
+          </ReportItems>
+          <Style>
+            <Border>
+              <Style>None</Style>
+            </Border>
+          </Style>
+        </PageHeader>
+        <PageFooter>
+          <Height>0.88542in</Height>
+          <PrintOnFirstPage>true</PrintOnFirstPage>
+          <PrintOnLastPage>true</PrintOnLastPage>
+          <Style>
+            <Border>
+              <Style>None</Style>
+            </Border>
+          </Style>
+        </PageFooter>
+        <PageHeight>8.5in</PageHeight>
+        <PageWidth>11in</PageWidth>
+        <LeftMargin>0.25in</LeftMargin>
+        <RightMargin>0.25in</RightMargin>
+        <TopMargin>0.25in</TopMargin>
+        <BottomMargin>0.25in</BottomMargin>
+        <ColumnSpacing>0.13cm</ColumnSpacing>
+        <Style />
+      </Page>
+    </ReportSection>
+  </ReportSections>
+  <ReportParameters>
+    <ReportParameter Name="serial_number">
+      <DataType>String</DataType>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>Ingrese número de serie:</Prompt>
+    </ReportParameter>
+  </ReportParameters>
+  <ReportParametersLayout>
+    <GridLayoutDefinition>
+      <NumberOfColumns>4</NumberOfColumns>
+      <NumberOfRows>2</NumberOfRows>
+      <CellDefinitions>
+        <CellDefinition>
+          <ColumnIndex>1</ColumnIndex>
+          <RowIndex>0</RowIndex>
+          <ParameterName>serial_number</ParameterName>
+        </CellDefinition>
+      </CellDefinitions>
+    </GridLayoutDefinition>
+  </ReportParametersLayout>
+  <Code>Function ProcessInput(ByVal data As String) As String
+    data = Trim(data)
+    data = System.Text.RegularExpressions.Regex.Replace(data, "[^\d]", "")
+    If Len(data) &gt; 20 Then
+        data = Right(data, 20)  ' Take the last 6 digits
+    End If
+    Return data
+End Function
+
+Function GenerateCode128BPattern(ByVal data As String) As String
+    Dim codePatterns(106) As String
+    ' Tabla completa de patrones Code 128 (Subset B)
+    ' Cada uno representa 11 módulos (barras y espacios)
+    codePatterns(0) = "11011001100"
+    codePatterns(1) = "11001101100"
+    codePatterns(2) = "11001100110"
+    codePatterns(3) = "10010011000"
+    codePatterns(4) = "10010001100"
+    codePatterns(5) = "10001001100"
+    codePatterns(6) = "10011001000"
+    codePatterns(7) = "10011000100"
+    codePatterns(8) = "10001100100"
+    codePatterns(9) = "11001001000"
+    codePatterns(10) = "11001000100"
+    codePatterns(11) = "11000100100"
+    codePatterns(12) = "10110011100"
+    codePatterns(13) = "10011011100"
+    codePatterns(14) = "10011001110"
+    codePatterns(15) = "10111001100"
+    codePatterns(16) = "10011101100"
+    codePatterns(17) = "10011100110"
+    codePatterns(18) = "11001110010"
+    codePatterns(19) = "11001011100"
+    codePatterns(20) = "11001001110"
+    codePatterns(21) = "11011100100"
+    codePatterns(22) = "11001110100"
+    codePatterns(23) = "11101101110"
+    codePatterns(24) = "11101001100"
+    codePatterns(25) = "11100101100"
+    codePatterns(26) = "11100100110"
+    codePatterns(27) = "11101100100"
+    codePatterns(28) = "11100110100"
+    codePatterns(29) = "11100110010"
+    codePatterns(30) = "11011011000"
+    codePatterns(31) = "11011000110"
+    codePatterns(32) = "11000110110"
+    codePatterns(33) = "10100011000"
+    codePatterns(34) = "10001011000"
+    codePatterns(35) = "10001000110"
+    codePatterns(36) = "10110001000"
+    codePatterns(37) = "10001101000"
+    codePatterns(38) = "10001100010"
+    codePatterns(39) = "11010001000"
+    codePatterns(40) = "11000101000"
+    codePatterns(41) = "11000100010"
+    codePatterns(42) = "10110111000"
+    codePatterns(43) = "10110001110"
+    codePatterns(44) = "10001101110"
+    codePatterns(45) = "10111011000"
+    codePatterns(46) = "10111000110"
+    codePatterns(47) = "10001110110"
+    codePatterns(48) = "11101110110"
+    codePatterns(49) = "11010001110"
+    codePatterns(50) = "11000101110"
+    codePatterns(51) = "11011101000"
+    codePatterns(52) = "11011100010"
+    codePatterns(53) = "11011101110"
+    codePatterns(54) = "11101011000"
+    codePatterns(55) = "11101000110"
+    codePatterns(56) = "11100010110"
+    codePatterns(57) = "11101101000"
+    codePatterns(58) = "11101100010"
+    codePatterns(59) = "11100011010"
+    codePatterns(60) = "11101111010"
+    codePatterns(61) = "11001000010"
+    codePatterns(62) = "11110001010"
+    codePatterns(63) = "10100110000"
+    codePatterns(64) = "10100001100"
+    codePatterns(65) = "10010110000"
+    codePatterns(66) = "10010000110"
+    codePatterns(67) = "10000101100"
+    codePatterns(68) = "10000100110"
+    codePatterns(69) = "10110010000"
+    codePatterns(70) = "10110000100"
+    codePatterns(71) = "10011010000"
+    codePatterns(72) = "10011000010"
+    codePatterns(73) = "10000110100"
+    codePatterns(74) = "10000110010"
+    codePatterns(75) = "11000010010"
+    codePatterns(76) = "11001010000"
+    codePatterns(77) = "11110111010"
+    codePatterns(78) = "11000010100"
+    codePatterns(79) = "10001111010"
+    codePatterns(80) = "10100111100"
+    codePatterns(81) = "10010111100"
+    codePatterns(82) = "10010011110"
+    codePatterns(83) = "10111100100"
+    codePatterns(84) = "10011110100"
+    codePatterns(85) = "10011110010"
+    codePatterns(86) = "11110100100"
+    codePatterns(87) = "11110010100"
+    codePatterns(88) = "11110010010"
+    codePatterns(89) = "11011011110"
+    codePatterns(90) = "11011110110"
+    codePatterns(91) = "11110110110"
+    codePatterns(92) = "10101111000"
+    codePatterns(93) = "10100011110"
+    codePatterns(94) = "10001011110"
+    codePatterns(95) = "10111101000"
+    codePatterns(96) = "10111100010"
+    codePatterns(97) = "11110101000"
+    codePatterns(98) = "11110100010"
+    codePatterns(99) = "10111011110"
+    codePatterns(100) = "10111101110"
+    codePatterns(101) = "11101011110"
+    codePatterns(102) = "11110101110"
+    codePatterns(103) = "11010000100" ' Start A
+    codePatterns(104) = "11010010000" ' Start B
+    codePatterns(105) = "11010011100" ' Start C
+    codePatterns(106) = "1100011101011" ' Stop (13 modules)
+
+    Dim result As String = ""
+    Dim checksum As Integer = 104 ' Start B
+    result &amp;= codePatterns(104) ' Start B pattern
+
+    For i As Integer = 1 To Len(data)
+        Dim codeValue As Integer = Asc(Mid(data, i, 1)) - 32
+        If codeValue &lt; 0 Or codeValue &gt; 94 Then
+            Return "ERROR"
+        End If
+        checksum += codeValue * i
+        result &amp;= codePatterns(codeValue)
+    Next
+
+    checksum = checksum Mod 103
+    result &amp;= codePatterns(checksum)
+    result &amp;= codePatterns(106) ' Stop
+
+    ' Add quiet zones
+    Return New String("0"c, 10) &amp; result &amp; New String("0"c, 10)
+End Function
+
+Function GetBarcodeColor(ByVal data As String, ByVal index As Integer) As String
+    Dim pattern As String = GenerateCode128BPattern(data)
+    If index &gt;= 1 AndAlso index &lt;= Len(pattern) Then
+        Return IIf(Mid(pattern, index, 1) = "1", "Black", "White")
+    Else
+        Return "White"
+    End If
+End Function
+</Code>
+</Report>
