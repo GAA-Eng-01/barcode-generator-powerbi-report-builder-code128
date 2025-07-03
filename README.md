@@ -1,5 +1,5 @@
 # barcode-generator-powerbi-report-builder-code128
-This Code will allow to create a Code 128 barcode in a Power Bi Report Builder. This will also work in Power Bi Online without using any external resources
+This Code will allow to create a Code 128 barcode in a Power Bi Report Builder. This will also work in Power Bi Online without using any external resources. Attached screen capture and Power Bi Report rdl file.
 
 ## How it Works
   1. Input Processing: The input is trimmed to 18 digits for this example but it can be expanded more.
